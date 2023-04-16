@@ -14,7 +14,7 @@ const fs = require("fs");
 // List of files, regex find & replaces to perform for Github pages
 const replaces = [
   {
-    file: "./src/router.js",
+    file: "./src/router/router.js",
     find: "mode: 'history'",
     replace: "mode: 'hash'",
   },
