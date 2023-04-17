@@ -4,8 +4,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import store, { Villager } from "@/store";
-import { computed } from "vue";
+import store from "@/store";
 import TrackingListItem from "./TrackingListItem.vue";
 
 function stopTracking(i: number) {

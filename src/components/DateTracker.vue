@@ -11,8 +11,8 @@
       <option>Winter</option>
     </select>
     <input type="number" placeholder="Day" class="input w-full col-span-2 bg-secondary" @blur="checkDay" v-model="store.state.date.day" />
-    <span class="text-base col-span-4">Season</span>
-    <span class="text-base col-span-2">Day</span>
+    <span class="text-base col-span-4 pl-2">Season</span>
+    <span class="text-base col-span-2 pl-2">Day</span>
     <div class="col-span-6 text-center">
       <button class="btn bg-primary">Next Day</button>
     </div>
