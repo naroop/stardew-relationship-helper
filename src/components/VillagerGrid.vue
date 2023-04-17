@@ -1,26 +1,22 @@
 <template lang="">
   <div class="">
     <div class="grid grid-cols-3 place-items-center gap-3 p-1">
-      <img
-        v-for="(villager, index) in villagerList"
+      <div
+        class="btn btn-square w-full h-full bg-base-300 shadow-sm shadow-black grid grid-rows-4"
+        v-for="(villager, index) in store.state.untrackedVillagers"
         :key="villager.name"
-        :src="villager.src"
-        :id="villager.name"
-        class="btn btn-square btn-lg object-contain bg-slate-600 shadow-sm shadow-black"
         @click="startTracking(index)"
-      />
+      >
+        <img :src="villager.iconURL" :id="villager.name" class="object-contain p-2 row-span-3 mx-[auto]" />
+        <p class="text-xs row-span-1">{{ villager.name }}</p>
+      </div>
     </div>
   </div>
 </template>
 <script setup lang="ts">
 import store, { Villager } from "@/store";
-import { computed } from "vue";
-
-const villagerList = computed<Villager[]>(() => {
-  return store.state.villagers.filter((villager) => !villager.isTracking);
-});
 
 function startTracking(i: number) {
-  store.commit("startTracking", villagerList.value[i].name);
+  store.commit("startTracking", i);
 }
 </script>

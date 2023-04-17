@@ -1,0 +1,1956 @@
+[
+  {
+    "name": "Abigail",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/6/63/Abigail_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/8/88/Abigail.png",
+    "loves": [
+      {
+        "name": "Amethyst",
+        "wikiURL": "https://stardewvalleywiki.com/Amethyst",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/2e/Amethyst.png"
+      },
+      {
+        "name": "Banana Pudding",
+        "wikiURL": "https://stardewvalleywiki.com/Banana_Pudding",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/40/Banana_Pudding.png"
+      },
+      {
+        "name": "Blackberry Cobbler",
+        "wikiURL": "https://stardewvalleywiki.com/Blackberry_Cobbler",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/70/Blackberry_Cobbler.png"
+      },
+      {
+        "name": "Chocolate Cake",
+        "wikiURL": "https://stardewvalleywiki.com/Chocolate_Cake",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/8/87/Chocolate_Cake.png"
+      },
+      {
+        "name": "Pufferfish",
+        "wikiURL": "https://stardewvalleywiki.com/Pufferfish",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/b/ba/Pufferfish.png"
+      },
+      {
+        "name": "Pumpkin",
+        "wikiURL": "https://stardewvalleywiki.com/Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/6/64/Pumpkin.png"
+      },
+      {
+        "name": "Spicy Eel",
+        "wikiURL": "https://stardewvalleywiki.com/Spicy_Eel",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/f/f2/Spicy_Eel.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Abigail"
+  },
+  {
+    "name": "Alex",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Alex_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/0/04/Alex.png",
+    "loves": [
+      {
+        "name": "Complete Breakfast",
+        "wikiURL": "https://stardewvalleywiki.com/Complete_Breakfast",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/3/3d/Complete_Breakfast.png"
+      },
+      {
+        "name": "Salmon Dinner",
+        "wikiURL": "https://stardewvalleywiki.com/Salmon_Dinner",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/8/8b/Salmon_Dinner.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Alex"
+  },
+  {
+    "name": "Caroline",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/d/d4/Caroline_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/8/87/Caroline.png",
+    "loves": [
+      {
+        "name": "Fish Taco",
+        "wikiURL": "https://stardewvalleywiki.com/Fish_Taco",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/d/d5/Fish_Taco.png"
+      },
+      {
+        "name": "Green Tea",
+        "wikiURL": "https://stardewvalleywiki.com/Green_Tea",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/8/8f/Green_Tea.png"
+      },
+      {
+        "name": "Summer Spangle",
+        "wikiURL": "https://stardewvalleywiki.com/Summer_Spangle",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/9/9f/Summer_Spangle.png"
+      },
+      {
+        "name": "Tropical Curry",
+        "wikiURL": "https://stardewvalleywiki.com/Tropical_Curry",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/3/32/Tropical_Curry.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Caroline"
+  },
+  {
+    "name": "Clint",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/7/74/Clint_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/3/31/Clint.png",
+    "loves": [
+      {
+        "name": "Amethyst",
+        "wikiURL": "https://stardewvalleywiki.com/Amethyst",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/2e/Amethyst.png"
+      },
+      {
+        "name": "Aquamarine",
+        "wikiURL": "https://stardewvalleywiki.com/Aquamarine",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/a/a2/Aquamarine.png"
+      },
+      {
+        "name": "Artichoke Dip",
+        "wikiURL": "https://stardewvalleywiki.com/Artichoke_Dip",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/77/Artichoke_Dip.png"
+      },
+      {
+        "name": "Emerald",
+        "wikiURL": "https://stardewvalleywiki.com/Emerald",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/6/6a/Emerald.png"
+      },
+      {
+        "name": "Fiddlehead Risotto",
+        "wikiURL": "https://stardewvalleywiki.com/Fiddlehead_Risotto",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/2d/Fiddlehead_Risotto.png"
+      },
+      {
+        "name": "Gold Bar",
+        "wikiURL": "https://stardewvalleywiki.com/Gold_Bar",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/4e/Gold_Bar.png"
+      },
+      {
+        "name": "Iridium Bar",
+        "wikiURL": "https://stardewvalleywiki.com/Iridium_Bar",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/c4/Iridium_Bar.png"
+      },
+      {
+        "name": "Jade",
+        "wikiURL": "https://stardewvalleywiki.com/Jade",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/7e/Jade.png"
+      },
+      {
+        "name": "Omni Geode",
+        "wikiURL": "https://stardewvalleywiki.com/Omni_Geode",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/0/09/Omni_Geode.png"
+      },
+      {
+        "name": "Ruby",
+        "wikiURL": "https://stardewvalleywiki.com/Ruby",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/a/a9/Ruby.png"
+      },
+      {
+        "name": "Topaz",
+        "wikiURL": "https://stardewvalleywiki.com/Topaz",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/a/a5/Topaz.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Clint"
+  },
+  {
+    "name": "Demetrius",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/0/0b/Demetrius_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/f/f9/Demetrius.png",
+    "loves": [
+      {
+        "name": "Bean Hotpot",
+        "wikiURL": "https://stardewvalleywiki.com/Bean_Hotpot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/24/Bean_Hotpot.png"
+      },
+      {
+        "name": "Ice Cream",
+        "wikiURL": "https://stardewvalleywiki.com/Ice_Cream",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/5d/Ice_Cream.png"
+      },
+      {
+        "name": "Rice Pudding",
+        "wikiURL": "https://stardewvalleywiki.com/Rice_Pudding",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/e/ec/Rice_Pudding.png"
+      },
+      {
+        "name": "Strawberry",
+        "wikiURL": "https://stardewvalleywiki.com/Strawberry",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/6/6d/Strawberry.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Demetrius"
+  },
+  {
+    "name": "Elliott",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/6/6f/Elliott_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/b/bd/Elliott.png",
+    "loves": [
+      {
+        "name": "Crab Cakes",
+        "wikiURL": "https://stardewvalleywiki.com/Crab_Cakes",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/70/Crab_Cakes.png"
+      },
+      {
+        "name": "Duck Feather",
+        "wikiURL": "https://stardewvalleywiki.com/Duck_Feather",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/f/f9/Duck_Feather.png"
+      },
+      {
+        "name": "Lobster",
+        "wikiURL": "https://stardewvalleywiki.com/Lobster",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/9/9f/Lobster.png"
+      },
+      {
+        "name": "Pomegranate",
+        "wikiURL": "https://stardewvalleywiki.com/Pomegranate",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Pomegranate.png"
+      },
+      {
+        "name": "Squid Ink",
+        "wikiURL": "https://stardewvalleywiki.com/Squid_Ink",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/a/ac/Squid_Ink.png"
+      },
+      {
+        "name": "Tom Kha Soup",
+        "wikiURL": "https://stardewvalleywiki.com/Tom_Kha_Soup",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/3/3b/Tom_Kha_Soup.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Elliott"
+  },
+  {
+    "name": "Emily",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/c/c3/Emily_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/28/Emily.png",
+    "loves": [
+      {
+        "name": "Amethyst",
+        "wikiURL": "https://stardewvalleywiki.com/Amethyst",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/2e/Amethyst.png"
+      },
+      {
+        "name": "Aquamarine",
+        "wikiURL": "https://stardewvalleywiki.com/Aquamarine",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/a/a2/Aquamarine.png"
+      },
+      {
+        "name": "Cloth",
+        "wikiURL": "https://stardewvalleywiki.com/Cloth",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/51/Cloth.png"
+      },
+      {
+        "name": "Emerald",
+        "wikiURL": "https://stardewvalleywiki.com/Emerald",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/6/6a/Emerald.png"
+      },
+      {
+        "name": "Jade",
+        "wikiURL": "https://stardewvalleywiki.com/Jade",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/7e/Jade.png"
+      },
+      {
+        "name": "Ruby",
+        "wikiURL": "https://stardewvalleywiki.com/Ruby",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/a/a9/Ruby.png"
+      },
+      {
+        "name": "Survival Burger",
+        "wikiURL": "https://stardewvalleywiki.com/Survival_Burger",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/8/87/Survival_Burger.png"
+      },
+      {
+        "name": "Topaz",
+        "wikiURL": "https://stardewvalleywiki.com/Topaz",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/a/a5/Topaz.png"
+      },
+      {
+        "name": "Wool",
+        "wikiURL": "https://stardewvalleywiki.com/Wool",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/3/34/Wool.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Emily"
+  },
+  {
+    "name": "Evelyn",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/5/54/Evelyn_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/8/8e/Evelyn.png",
+    "loves": [
+      {
+        "name": "Beet",
+        "wikiURL": "https://stardewvalleywiki.com/Beet",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/a/a4/Beet.png"
+      },
+      {
+        "name": "Chocolate Cake",
+        "wikiURL": "https://stardewvalleywiki.com/Chocolate_Cake",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/8/87/Chocolate_Cake.png"
+      },
+      {
+        "name": "Diamond",
+        "wikiURL": "https://stardewvalleywiki.com/Diamond",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/e/ea/Diamond.png"
+      },
+      {
+        "name": "Fairy Rose",
+        "wikiURL": "https://stardewvalleywiki.com/Fairy_Rose",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/5c/Fairy_Rose.png"
+      },
+      {
+        "name": "Stuffing",
+        "wikiURL": "https://stardewvalleywiki.com/Stuffing",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/9/9a/Stuffing.png"
+      },
+      {
+        "name": "Tulip",
+        "wikiURL": "https://stardewvalleywiki.com/Tulip",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/cf/Tulip.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Evelyn"
+  },
+  {
+    "name": "George",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/a/ad/George_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/78/George.png",
+    "loves": [
+      {
+        "name": "Fried Mushroom",
+        "wikiURL": "https://stardewvalleywiki.com/Fried_Mushroom",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/4a/Fried_Mushroom.png"
+      },
+      {
+        "name": "Leek",
+        "wikiURL": "https://stardewvalleywiki.com/Leek",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/57/Leek.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/George"
+  },
+  {
+    "name": "Gus",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/d/db/Gus_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/52/Gus.png",
+    "loves": [
+      {
+        "name": "Diamond",
+        "wikiURL": "https://stardewvalleywiki.com/Diamond",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/e/ea/Diamond.png"
+      },
+      {
+        "name": "Escargot",
+        "wikiURL": "https://stardewvalleywiki.com/Escargot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/78/Escargot.png"
+      },
+      {
+        "name": "Fish Taco",
+        "wikiURL": "https://stardewvalleywiki.com/Fish_Taco",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/d/d5/Fish_Taco.png"
+      },
+      {
+        "name": "Orange",
+        "wikiURL": "https://stardewvalleywiki.com/Orange",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/43/Orange.png"
+      },
+      {
+        "name": "Tropical Curry",
+        "wikiURL": "https://stardewvalleywiki.com/Tropical_Curry",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/3/32/Tropical_Curry.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Gus"
+  },
+  {
+    "name": "Haley",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/f/f7/Haley_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Haley.png",
+    "loves": [
+      {
+        "name": "Coconut",
+        "wikiURL": "https://stardewvalleywiki.com/Coconut",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/2f/Coconut.png"
+      },
+      {
+        "name": "Fruit Salad",
+        "wikiURL": "https://stardewvalleywiki.com/Fruit_Salad",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/9/9e/Fruit_Salad.png"
+      },
+      {
+        "name": "Pink Cake",
+        "wikiURL": "https://stardewvalleywiki.com/Pink_Cake",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/3/32/Pink_Cake.png"
+      },
+      {
+        "name": "Sunflower",
+        "wikiURL": "https://stardewvalleywiki.com/Sunflower",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/8/81/Sunflower.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Haley"
+  },
+  {
+    "name": "Harvey",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/7/7a/Harvey_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/9/95/Harvey.png",
+    "loves": [
+      {
+        "name": "Coffee",
+        "wikiURL": "https://stardewvalleywiki.com/Coffee",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/e/e9/Coffee.png"
+      },
+      {
+        "name": "Pickles",
+        "wikiURL": "https://stardewvalleywiki.com/Jellies_and_Pickles",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/c7/Pickles.png"
+      },
+      {
+        "name": "Super Meal",
+        "wikiURL": "https://stardewvalleywiki.com/Super_Meal",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/d/d2/Super_Meal.png"
+      },
+      {
+        "name": "Truffle Oil",
+        "wikiURL": "https://stardewvalleywiki.com/Truffle_Oil",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/3/3d/Truffle_Oil.png"
+      },
+      {
+        "name": "Wine",
+        "wikiURL": "https://stardewvalleywiki.com/Wine",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/6/69/Wine.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Harvey"
+  },
+  {
+    "name": "Jas",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/6/68/Jas_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/55/Jas.png",
+    "loves": [
+      {
+        "name": "Fairy Rose",
+        "wikiURL": "https://stardewvalleywiki.com/Fairy_Rose",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/5c/Fairy_Rose.png"
+      },
+      {
+        "name": "Pink Cake",
+        "wikiURL": "https://stardewvalleywiki.com/Pink_Cake",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/3/32/Pink_Cake.png"
+      },
+      {
+        "name": "Plum Pudding",
+        "wikiURL": "https://stardewvalleywiki.com/Plum_Pudding",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/a/a0/Plum_Pudding.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Jas"
+  },
+  {
+    "name": "Jodi",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/f/f7/Jodi_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/41/Jodi.png",
+    "loves": [
+      {
+        "name": "Chocolate Cake",
+        "wikiURL": "https://stardewvalleywiki.com/Chocolate_Cake",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/8/87/Chocolate_Cake.png"
+      },
+      {
+        "name": "Crispy Bass",
+        "wikiURL": "https://stardewvalleywiki.com/Crispy_Bass",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/53/Crispy_Bass.png"
+      },
+      {
+        "name": "Diamond",
+        "wikiURL": "https://stardewvalleywiki.com/Diamond",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/e/ea/Diamond.png"
+      },
+      {
+        "name": "Eggplant Parmesan",
+        "wikiURL": "https://stardewvalleywiki.com/Eggplant_Parmesan",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Eggplant_Parmesan.png"
+      },
+      {
+        "name": "Fried Eel",
+        "wikiURL": "https://stardewvalleywiki.com/Fried_Eel",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/8/84/Fried_Eel.png"
+      },
+      {
+        "name": "Pancakes",
+        "wikiURL": "https://stardewvalleywiki.com/Pancakes",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/6/6b/Pancakes.png"
+      },
+      {
+        "name": "Rhubarb Pie",
+        "wikiURL": "https://stardewvalleywiki.com/Rhubarb_Pie",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/21/Rhubarb_Pie.png"
+      },
+      {
+        "name": "Vegetable Medley",
+        "wikiURL": "https://stardewvalleywiki.com/Vegetable_Medley",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/0/0a/Vegetable_Medley.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Jodi"
+  },
+  {
+    "name": "Kent",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/8/86/Kent_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/9/99/Kent.png",
+    "loves": [
+      {
+        "name": "Fiddlehead Risotto",
+        "wikiURL": "https://stardewvalleywiki.com/Fiddlehead_Risotto",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/2d/Fiddlehead_Risotto.png"
+      },
+      {
+        "name": "Roasted Hazelnuts",
+        "wikiURL": "https://stardewvalleywiki.com/Roasted_Hazelnuts",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/1/18/Roasted_Hazelnuts.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Kent"
+  },
+  {
+    "name": "Krobus",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/1/10/Krobus_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/71/Krobus.png",
+    "loves": [
+      {
+        "name": "Diamond",
+        "wikiURL": "https://stardewvalleywiki.com/Diamond",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/e/ea/Diamond.png"
+      },
+      {
+        "name": "Iridium Bar",
+        "wikiURL": "https://stardewvalleywiki.com/Iridium_Bar",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/c4/Iridium_Bar.png"
+      },
+      {
+        "name": "Pumpkin",
+        "wikiURL": "https://stardewvalleywiki.com/Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/6/64/Pumpkin.png"
+      },
+      {
+        "name": "Void Egg",
+        "wikiURL": "https://stardewvalleywiki.com/Void_Egg",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png"
+      },
+      {
+        "name": "Void Mayonnaise",
+        "wikiURL": "https://stardewvalleywiki.com/Void_Mayonnaise",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/f/f3/Void_Mayonnaise.png"
+      },
+      {
+        "name": "Wild Horseradish",
+        "wikiURL": "https://stardewvalleywiki.com/Wild_Horseradish",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/9/90/Wild_Horseradish.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Krobus"
+  },
+  {
+    "name": "Leah",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/6/6e/Leah_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/e/e6/Leah.png",
+    "loves": [
+      {
+        "name": "Goat Cheese",
+        "wikiURL": "https://stardewvalleywiki.com/Goat_Cheese",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/c8/Goat_Cheese.png"
+      },
+      {
+        "name": "Poppyseed Muffin",
+        "wikiURL": "https://stardewvalleywiki.com/Poppyseed_Muffin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/8/8e/Poppyseed_Muffin.png"
+      },
+      {
+        "name": "Salad",
+        "wikiURL": "https://stardewvalleywiki.com/Salad",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/7e/Salad.png"
+      },
+      {
+        "name": "Stir Fry",
+        "wikiURL": "https://stardewvalleywiki.com/Stir_Fry",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/e/ed/Stir_Fry.png"
+      },
+      {
+        "name": "Truffle",
+        "wikiURL": "https://stardewvalleywiki.com/Truffle",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/f/f2/Truffle.png"
+      },
+      {
+        "name": "Vegetable Medley",
+        "wikiURL": "https://stardewvalleywiki.com/Vegetable_Medley",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/0/0a/Vegetable_Medley.png"
+      },
+      {
+        "name": "Wine",
+        "wikiURL": "https://stardewvalleywiki.com/Wine",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/6/69/Wine.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Leah"
+  },
+  {
+    "name": "Leo",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/3/3d/Leo_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/1/1d/Leo.png",
+    "loves": [
+      {
+        "name": "Duck Feather",
+        "wikiURL": "https://stardewvalleywiki.com/Duck_Feather",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/f/f9/Duck_Feather.png"
+      },
+      {
+        "name": "Mango",
+        "wikiURL": "https://stardewvalleywiki.com/Mango",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/3/38/Mango.png"
+      },
+      {
+        "name": "Ostrich Egg",
+        "wikiURL": "https://stardewvalleywiki.com/Ostrich_Egg",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/c3/Ostrich_Egg.png"
+      },
+      {
+        "name": "Poi",
+        "wikiURL": "https://stardewvalleywiki.com/Poi",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/f/f1/Poi.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Leo"
+  },
+  {
+    "name": "Lewis",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/b/b6/Lewis_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/2b/Lewis.png",
+    "loves": [
+      {
+        "name": "Autumn's Bounty",
+        "wikiURL": "https://stardewvalleywiki.com/Autumn%27s_Bounty",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/f/f4/Autumn%27s_Bounty.png"
+      },
+      {
+        "name": "Glazed Yams",
+        "wikiURL": "https://stardewvalleywiki.com/Glazed_Yams",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/3/30/Glazed_Yams.png"
+      },
+      {
+        "name": "Green Tea",
+        "wikiURL": "https://stardewvalleywiki.com/Green_Tea",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/8/8f/Green_Tea.png"
+      },
+      {
+        "name": "Hot Pepper",
+        "wikiURL": "https://stardewvalleywiki.com/Hot_Pepper",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/f/f1/Hot_Pepper.png"
+      },
+      {
+        "name": "Vegetable Medley",
+        "wikiURL": "https://stardewvalleywiki.com/Vegetable_Medley",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/0/0a/Vegetable_Medley.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Lewis"
+  },
+  {
+    "name": "Linus",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/d/db/Linus_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/3/31/Linus.png",
+    "loves": [
+      {
+        "name": "Blueberry Tart",
+        "wikiURL": "https://stardewvalleywiki.com/Blueberry_Tart",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/9/9b/Blueberry_Tart.png"
+      },
+      {
+        "name": "Cactus Fruit",
+        "wikiURL": "https://stardewvalleywiki.com/Cactus_Fruit",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/3/32/Cactus_Fruit.png"
+      },
+      {
+        "name": "Coconut",
+        "wikiURL": "https://stardewvalleywiki.com/Coconut",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/2f/Coconut.png"
+      },
+      {
+        "name": "Dish O' The Sea",
+        "wikiURL": "https://stardewvalleywiki.com/Dish_O%27_The_Sea",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/f/ff/Dish_O%27_The_Sea.png"
+      },
+      {
+        "name": "Yam",
+        "wikiURL": "https://stardewvalleywiki.com/Yam",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/52/Yam.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Linus"
+  },
+  {
+    "name": "Marnie",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/d/d4/Marnie_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/52/Marnie.png",
+    "loves": [
+      {
+        "name": "Diamond",
+        "wikiURL": "https://stardewvalleywiki.com/Diamond",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/e/ea/Diamond.png"
+      },
+      {
+        "name": "Farmer's Lunch",
+        "wikiURL": "https://stardewvalleywiki.com/Farmer%27s_Lunch",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/79/Farmer%27s_Lunch.png"
+      },
+      {
+        "name": "Pink Cake",
+        "wikiURL": "https://stardewvalleywiki.com/Pink_Cake",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/3/32/Pink_Cake.png"
+      },
+      {
+        "name": "Pumpkin Pie",
+        "wikiURL": "https://stardewvalleywiki.com/Pumpkin_Pie",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/7d/Pumpkin_Pie.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Marnie"
+  },
+  {
+    "name": "Maru",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/2/23/Maru_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/f/f8/Maru.png",
+    "loves": [
+      {
+        "name": "Battery Pack",
+        "wikiURL": "https://stardewvalleywiki.com/Battery_Pack",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Battery_Pack.png"
+      },
+      {
+        "name": "Cauliflower",
+        "wikiURL": "https://stardewvalleywiki.com/Cauliflower",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/a/aa/Cauliflower.png"
+      },
+      {
+        "name": "Cheese Cauliflower",
+        "wikiURL": "https://stardewvalleywiki.com/Cheese_Cauliflower",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/6/6e/Cheese_Cauliflower.png"
+      },
+      {
+        "name": "Diamond",
+        "wikiURL": "https://stardewvalleywiki.com/Diamond",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/e/ea/Diamond.png"
+      },
+      {
+        "name": "Gold Bar",
+        "wikiURL": "https://stardewvalleywiki.com/Gold_Bar",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/4e/Gold_Bar.png"
+      },
+      {
+        "name": "Iridium Bar",
+        "wikiURL": "https://stardewvalleywiki.com/Iridium_Bar",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/c4/Iridium_Bar.png"
+      },
+      {
+        "name": "Miner's Treat",
+        "wikiURL": "https://stardewvalleywiki.com/Miner%27s_Treat",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/1/12/Miner%27s_Treat.png"
+      },
+      {
+        "name": "Pepper Poppers",
+        "wikiURL": "https://stardewvalleywiki.com/Pepper_Poppers",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/0/08/Pepper_Poppers.png"
+      },
+      {
+        "name": "Radioactive Bar",
+        "wikiURL": "https://stardewvalleywiki.com/Radioactive_Bar",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/7e/Radioactive_Bar.png"
+      },
+      {
+        "name": "Rhubarb Pie",
+        "wikiURL": "https://stardewvalleywiki.com/Rhubarb_Pie",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/21/Rhubarb_Pie.png"
+      },
+      {
+        "name": "Strawberry",
+        "wikiURL": "https://stardewvalleywiki.com/Strawberry",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/6/6d/Strawberry.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Maru"
+  },
+  {
+    "name": "Pam",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/b/b6/Pam_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/d/da/Pam.png",
+    "loves": [
+      {
+        "name": "Beer",
+        "wikiURL": "https://stardewvalleywiki.com/Beer",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/b/b3/Beer.png"
+      },
+      {
+        "name": "Cactus Fruit",
+        "wikiURL": "https://stardewvalleywiki.com/Cactus_Fruit",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/3/32/Cactus_Fruit.png"
+      },
+      {
+        "name": "Glazed Yams",
+        "wikiURL": "https://stardewvalleywiki.com/Glazed_Yams",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/3/30/Glazed_Yams.png"
+      },
+      {
+        "name": "Mead",
+        "wikiURL": "https://stardewvalleywiki.com/Mead",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/8/84/Mead.png"
+      },
+      {
+        "name": "Pale Ale",
+        "wikiURL": "https://stardewvalleywiki.com/Pale_Ale",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/78/Pale_Ale.png"
+      },
+      {
+        "name": "Parsnip",
+        "wikiURL": "https://stardewvalleywiki.com/Parsnip",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/d/db/Parsnip.png"
+      },
+      {
+        "name": "Parsnip Soup",
+        "wikiURL": "https://stardewvalleywiki.com/Parsnip_Soup",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/76/Parsnip_Soup.png"
+      },
+      {
+        "name": "Piña Colada",
+        "wikiURL": "https://stardewvalleywiki.com/Pi%C3%B1a_Colada",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/1/12/Pi%C3%B1a_Colada.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Pam"
+  },
+  {
+    "name": "Penny",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/b/bc/Penny_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/a/ab/Penny.png",
+    "loves": [
+      {
+        "name": "Diamond",
+        "wikiURL": "https://stardewvalleywiki.com/Diamond",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/e/ea/Diamond.png"
+      },
+      {
+        "name": "Emerald",
+        "wikiURL": "https://stardewvalleywiki.com/Emerald",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/6/6a/Emerald.png"
+      },
+      {
+        "name": "Melon",
+        "wikiURL": "https://stardewvalleywiki.com/Melon",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/1/19/Melon.png"
+      },
+      {
+        "name": "Poppy",
+        "wikiURL": "https://stardewvalleywiki.com/Poppy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/3/37/Poppy.png"
+      },
+      {
+        "name": "Poppyseed Muffin",
+        "wikiURL": "https://stardewvalleywiki.com/Poppyseed_Muffin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/8/8e/Poppyseed_Muffin.png"
+      },
+      {
+        "name": "Red Plate",
+        "wikiURL": "https://stardewvalleywiki.com/Red_Plate",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/45/Red_Plate.png"
+      },
+      {
+        "name": "Roots Platter",
+        "wikiURL": "https://stardewvalleywiki.com/Roots_Platter",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/e/e0/Roots_Platter.png"
+      },
+      {
+        "name": "Sandfish",
+        "wikiURL": "https://stardewvalleywiki.com/Sandfish",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/b/bb/Sandfish.png"
+      },
+      {
+        "name": "Tom Kha Soup",
+        "wikiURL": "https://stardewvalleywiki.com/Tom_Kha_Soup",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/3/3b/Tom_Kha_Soup.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Penny"
+  },
+  {
+    "name": "Pierre",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/c/cf/Pierre_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/7e/Pierre.png",
+    "loves": [
+      {
+        "name": "Fried Calamari",
+        "wikiURL": "https://stardewvalleywiki.com/Fried_Calamari",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Fried_Calamari.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Pierre"
+  },
+  {
+    "name": "Robin",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/d/d1/Robin_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Robin.png",
+    "loves": [
+      {
+        "name": "Goat Cheese",
+        "wikiURL": "https://stardewvalleywiki.com/Goat_Cheese",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/c8/Goat_Cheese.png"
+      },
+      {
+        "name": "Peach",
+        "wikiURL": "https://stardewvalleywiki.com/Peach",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/e/e2/Peach.png"
+      },
+      {
+        "name": "Spaghetti",
+        "wikiURL": "https://stardewvalleywiki.com/Spaghetti",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/0/08/Spaghetti.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Robin"
+  },
+  {
+    "name": "Sam",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/5/52/Sam_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/9/94/Sam.png",
+    "loves": [
+      {
+        "name": "Cactus Fruit",
+        "wikiURL": "https://stardewvalleywiki.com/Cactus_Fruit",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/3/32/Cactus_Fruit.png"
+      },
+      {
+        "name": "Maple Bar",
+        "wikiURL": "https://stardewvalleywiki.com/Maple_Bar",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/1/18/Maple_Bar.png"
+      },
+      {
+        "name": "Pizza",
+        "wikiURL": "https://stardewvalleywiki.com/Pizza",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/f/f4/Pizza.png"
+      },
+      {
+        "name": "Tigerseye",
+        "wikiURL": "https://stardewvalleywiki.com/Tigerseye",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/6/6e/Tigerseye.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Sam"
+  },
+  {
+    "name": "Sandy",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/7/7d/Sandy_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/4e/Sandy.png",
+    "loves": [
+      {
+        "name": "Crocus",
+        "wikiURL": "https://stardewvalleywiki.com/Crocus",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/2f/Crocus.png"
+      },
+      {
+        "name": "Daffodil",
+        "wikiURL": "https://stardewvalleywiki.com/Daffodil",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/4b/Daffodil.png"
+      },
+      {
+        "name": "Mango Sticky Rice",
+        "wikiURL": "https://stardewvalleywiki.com/Mango_Sticky_Rice",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/6/6e/Mango_Sticky_Rice.png"
+      },
+      {
+        "name": "Sweet Pea",
+        "wikiURL": "https://stardewvalleywiki.com/Sweet_Pea",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/d/d9/Sweet_Pea.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Sandy"
+  },
+  {
+    "name": "Sebastian",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/6/6a/Sebastian_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/a/a8/Sebastian.png",
+    "loves": [
+      {
+        "name": "Frozen Tear",
+        "wikiURL": "https://stardewvalleywiki.com/Frozen_Tear",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/e/ec/Frozen_Tear.png"
+      },
+      {
+        "name": "Obsidian",
+        "wikiURL": "https://stardewvalleywiki.com/Obsidian",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/23/Obsidian.png"
+      },
+      {
+        "name": "Pumpkin Soup",
+        "wikiURL": "https://stardewvalleywiki.com/Pumpkin_Soup",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/59/Pumpkin_Soup.png"
+      },
+      {
+        "name": "Sashimi",
+        "wikiURL": "https://stardewvalleywiki.com/Sashimi",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/41/Sashimi.png"
+      },
+      {
+        "name": "Void Egg",
+        "wikiURL": "https://stardewvalleywiki.com/Void_Egg",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/58/Void_Egg.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Sebastian"
+  },
+  {
+    "name": "Shane",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/b/b4/Shane_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/8/8b/Shane.png",
+    "loves": [
+      {
+        "name": "Beer",
+        "wikiURL": "https://stardewvalleywiki.com/Beer",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/b/b3/Beer.png"
+      },
+      {
+        "name": "Hot Pepper",
+        "wikiURL": "https://stardewvalleywiki.com/Hot_Pepper",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/f/f1/Hot_Pepper.png"
+      },
+      {
+        "name": "Pepper Poppers",
+        "wikiURL": "https://stardewvalleywiki.com/Pepper_Poppers",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/0/08/Pepper_Poppers.png"
+      },
+      {
+        "name": "Pizza",
+        "wikiURL": "https://stardewvalleywiki.com/Pizza",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/f/f4/Pizza.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Shane"
+  },
+  {
+    "name": "Vincent",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/0/0b/Vincent_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/f/f1/Vincent.png",
+    "loves": [
+      {
+        "name": "Cranberry Candy",
+        "wikiURL": "https://stardewvalleywiki.com/Cranberry_Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/9/9d/Cranberry_Candy.png"
+      },
+      {
+        "name": "Ginger Ale",
+        "wikiURL": "https://stardewvalleywiki.com/Ginger_Ale",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/1/1a/Ginger_Ale.png"
+      },
+      {
+        "name": "Grape",
+        "wikiURL": "https://stardewvalleywiki.com/Grape",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/c2/Grape.png"
+      },
+      {
+        "name": "Pink Cake",
+        "wikiURL": "https://stardewvalleywiki.com/Pink_Cake",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/3/32/Pink_Cake.png"
+      },
+      {
+        "name": "Snail",
+        "wikiURL": "https://stardewvalleywiki.com/Snail",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/d/d2/Snail.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Vincent"
+  },
+  {
+    "name": "Willy",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Willy_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/8/82/Willy.png",
+    "loves": [
+      {
+        "name": "Catfish",
+        "wikiURL": "https://stardewvalleywiki.com/Catfish",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/9/99/Catfish.png"
+      },
+      {
+        "name": "Diamond",
+        "wikiURL": "https://stardewvalleywiki.com/Diamond",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/e/ea/Diamond.png"
+      },
+      {
+        "name": "Iridium Bar",
+        "wikiURL": "https://stardewvalleywiki.com/Iridium_Bar",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/c4/Iridium_Bar.png"
+      },
+      {
+        "name": "Mead",
+        "wikiURL": "https://stardewvalleywiki.com/Mead",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/8/84/Mead.png"
+      },
+      {
+        "name": "Octopus",
+        "wikiURL": "https://stardewvalleywiki.com/Octopus",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/5a/Octopus.png"
+      },
+      {
+        "name": "Pumpkin",
+        "wikiURL": "https://stardewvalleywiki.com/Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/6/64/Pumpkin.png"
+      },
+      {
+        "name": "Sea Cucumber",
+        "wikiURL": "https://stardewvalleywiki.com/Sea_Cucumber",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/a/a9/Sea_Cucumber.png"
+      },
+      {
+        "name": "Sturgeon",
+        "wikiURL": "https://stardewvalleywiki.com/Sturgeon",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/42/Sturgeon.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Willy"
+  },
+  {
+    "name": "Wizard",
+    "iconURL": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/e9/Wizard_Icon.png/24px-Wizard_Icon.png",
+    "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/c7/Wizard.png",
+    "loves": [
+      {
+        "name": "Purple Mushroom",
+        "wikiURL": "https://stardewvalleywiki.com/Purple_Mushroom",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/4b/Purple_Mushroom.png"
+      },
+      {
+        "name": "Solar Essence",
+        "wikiURL": "https://stardewvalleywiki.com/Solar_Essence",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/f/f4/Solar_Essence.png"
+      },
+      {
+        "name": "Super Cucumber",
+        "wikiURL": "https://stardewvalleywiki.com/Super_Cucumber",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/d/d5/Super_Cucumber.png"
+      },
+      {
+        "name": "Void Essence",
+        "wikiURL": "https://stardewvalleywiki.com/Void_Essence",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/1/1f/Void_Essence.png"
+      },
+      {
+        "name": "Golden Pumpkin",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/46/Golden_Pumpkin.png",
+        "wikiURL": "https://stardewvalleywiki.com/Golden_Pumpkin"
+      },
+      {
+        "name": "Magic Rock Candy",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/25/Magic_Rock_Candy.png",
+        "wikiURL": "https://stardewvalleywiki.com/Magic_Rock_Candy"
+      },
+      {
+        "name": "Pearl",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Pearl.png",
+        "wikiURL": "https://stardewvalleywiki.com/Pearl"
+      },
+      {
+        "name": "Prismatic Shard",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/56/Prismatic_Shard.png",
+        "wikiURL": "https://stardewvalleywiki.com/Prismatic_Shard"
+      },
+      {
+        "name": "Rabbit's Foot",
+        "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/ca/Rabbit%27s_Foot.png",
+        "wikiURL": "https://stardewvalleywiki.com/Rabbit%27s_Foot"
+      }
+    ],
+    "wikiURL": "https://stardewvalleywiki.com/Wizard"
+  }
+]

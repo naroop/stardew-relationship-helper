@@ -7,7 +7,7 @@ import { onMounted } from "vue";
 import store from "./store";
 
 onMounted(() => {
-  store.dispatch("fetchVillagers");
+  store.commit("initVillagers");
 });
 </script>
 
