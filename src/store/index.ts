@@ -7,6 +7,7 @@ interface State {
   trackedVillagers: Villager[];
   inventory: Item[];
   date: Date;
+  dragging: string;
 }
 
 export interface Villager {
@@ -31,12 +32,13 @@ export interface Date {
   day: number;
 }
 
-export default createStore<State>({
+const store = createStore<State>({
   state: {
     untrackedVillagers: [],
     trackedVillagers: [],
     inventory: [],
     date: { season: "Spring", day: 1 },
+    dragging: "",
   },
   getters: {},
   mutations: {
@@ -60,11 +62,9 @@ export default createStore<State>({
 
       // Add villager to tracked villagers
       state.trackedVillagers.push(vill);
-      localStorage.setItem("trackedVillagers", JSON.stringify(state.trackedVillagers));
 
       // Add villager's like items to inventory
       addItemsToInventory(state.inventory, vill.loves);
-      localStorage.setItem("inventory", JSON.stringify(state.inventory));
     },
     stopTracking(state: State, index: number) {
       state.untrackedVillagers.push(removeVillager(index, state.trackedVillagers));
@@ -73,17 +73,41 @@ export default createStore<State>({
       const item = state.inventory.find((item) => item.name === params.name);
       if (item) {
         item.quantity += params.value;
-        localStorage.setItem("inventory", JSON.stringify(state.inventory));
       }
+    },
+    giveItem(state: State, villagerName: string) {
+      const villager = state.trackedVillagers.find((v) => v.name === villagerName);
+      if (villager) villager.name = state.dragging;
     },
   },
   modules: {},
 });
 
+export default store;
+
+store.watch(
+  (state) => state.trackedVillagers,
+  (newValue, oldValue) => {
+    localStorage.setItem("trackedVillagers", JSON.stringify(newValue));
+  },
+  {
+    deep: true,
+  }
+);
+
+store.watch(
+  (state) => state.inventory,
+  (newValue, oldValue) => {
+    localStorage.setItem("inventory", JSON.stringify(newValue));
+  },
+  {
+    deep: true,
+  }
+);
+
 function removeVillager(index: number, arr: Villager[]): Villager {
   const villager = arr[index];
   arr.splice(index, 1);
-  console.log(villager);
   return villager;
 }
 
