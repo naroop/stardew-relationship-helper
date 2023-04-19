@@ -22,12 +22,13 @@
       <div class="row-span-1 flex flex-row">
         <img
           class="object-contain h-4/5"
-          v-for="item in store.state.inventory.filter((i) => villager.loves.some((j) => i.name === j.name) && i.quantity > 0)"
+          v-for="(item, i) in store.state.inventory.filter((i) => villager.loves.some((j) => i.name === j.name) && i.quantity > 0)"
           :key="item.name"
           :src="item.imgURL"
-          draggable="true"
-          @dragstart="store.state.dragging = item.name"
-          @dragend="store.state.dragging = ''"
+          ref="items"
+          draggable="false"
+          @mousedown="startDrag(i)"
+          @mouseup="stopDrag()"
         />
       </div>
       <div class="row-span-1 flex flex-row">
@@ -47,13 +48,54 @@
 </template>
 <script setup lang="ts">
 import { Villager } from "@/store";
-import { defineProps } from "vue";
+import { defineProps, ref } from "vue";
 import store from "@/store";
 
+const items = ref(null);
+const drag = ref({
+  start: { x: null, y: null },
+  el: null,
+});
+
 function itemDrop() {
-  console.log("drop");
   store.commit("giveItem", props.villager.name);
   store.commit("changeQuantity", { name: store.state.dragging, value: -1 });
+}
+
+function stopDrag() {
+  drag.value.el.style.transition = "300ms";
+  drag.value.el.style.top = drag.value.start.y + "px";
+  drag.value.el.style.left = drag.value.start.x + "px";
+  setTimeout(() => {
+    drag.value.el.style.position = "static";
+    drag.value.el.style.top = null;
+    drag.value.el.style.left = null;
+    drag.value.el.style.transition = null;
+    drag.value.el.style["z-index"] = null;
+    drag.value.el = null;
+    drag.value.start = { x: null, y: null };
+  }, 280);
+  document.onmousemove = null;
+}
+
+function startDrag(i: number) {
+  const item = items.value[i];
+  const width = items.value[i].clientWidth;
+  const height = items.value[i].clientHeight;
+  drag.value.start.x = items.value[i].getBoundingClientRect().left;
+  drag.value.start.y = items.value[i].getBoundingClientRect().top;
+  drag.value.el = item;
+  item.style.top = drag.value.start.y + "px";
+  item.style.left = drag.value.start.x + "px";
+  item.style.position = "absolute";
+  item.style.width = width + "px";
+  item.style.height = height + "px";
+  item.style["z-index"] = 100;
+  document.onmousemove = (e) => {
+    e.preventDefault();
+    item.style.top = e.y - height / 2 + "px";
+    item.style.left = e.x - width / 2 + "px";
+  };
 }
 
 const props = defineProps({
