@@ -13,23 +13,16 @@
         <img class="object-contain h-9 ml-3" v-if="villager.isMarried" src="@/assets/mermaids-pendant.png" />
       </div>
     </div>
-    <div
-      class="col-span-1 bg-secondary m-3 rounded"
-      @dragover="(e) => store.state.dragging && e.preventDefault()"
-      @drop="store.state.dragging && itemDrop()"
-    ></div>
+    <div class="col-span-1 bg-secondary m-3 rounded" @mouseup="itemDrop"></div>
     <div class="col-span-6 grid grid-rows-2">
       <div class="row-span-1 flex flex-row">
-        <img
-          class="object-contain h-4/5"
-          v-for="(item, i) in store.state.inventory.filter((i) => villager.loves.some((j) => i.name === j.name) && i.quantity > 0)"
+        <DraggableItem
+          v-for="item in store.state.inventory.filter((i) => villager.loves.some((j) => i.name === j.name) && i.quantity > 0)"
           :key="item.name"
-          :src="item.imgURL"
-          ref="items"
-          draggable="false"
-          @mousedown="startDrag(i)"
-          @mouseup="stopDrag()"
-        />
+          :name="item.name"
+        >
+          <img class="object-contain h-4/5" :src="item.imgURL" draggable="false" />
+        </DraggableItem>
       </div>
       <div class="row-span-1 flex flex-row">
         <img
@@ -50,52 +43,13 @@
 import { Villager } from "@/store";
 import { defineProps, ref } from "vue";
 import store from "@/store";
-
-const items = ref(null);
-const drag = ref({
-  start: { x: null, y: null },
-  el: null,
-});
+import DraggableItem from "../DraggableItem.vue";
 
 function itemDrop() {
-  store.commit("giveItem", props.villager.name);
-  store.commit("changeQuantity", { name: store.state.dragging, value: -1 });
-}
-
-function stopDrag() {
-  drag.value.el.style.transition = "300ms";
-  drag.value.el.style.top = drag.value.start.y + "px";
-  drag.value.el.style.left = drag.value.start.x + "px";
-  setTimeout(() => {
-    drag.value.el.style.position = "static";
-    drag.value.el.style.top = null;
-    drag.value.el.style.left = null;
-    drag.value.el.style.transition = null;
-    drag.value.el.style["z-index"] = null;
-    drag.value.el = null;
-    drag.value.start = { x: null, y: null };
-  }, 280);
-  document.onmousemove = null;
-}
-
-function startDrag(i: number) {
-  const item = items.value[i];
-  const width = items.value[i].clientWidth;
-  const height = items.value[i].clientHeight;
-  drag.value.start.x = items.value[i].getBoundingClientRect().left;
-  drag.value.start.y = items.value[i].getBoundingClientRect().top;
-  drag.value.el = item;
-  item.style.top = drag.value.start.y + "px";
-  item.style.left = drag.value.start.x + "px";
-  item.style.position = "absolute";
-  item.style.width = width + "px";
-  item.style.height = height + "px";
-  item.style["z-index"] = 100;
-  document.onmousemove = (e) => {
-    e.preventDefault();
-    item.style.top = e.y - height / 2 + "px";
-    item.style.left = e.x - width / 2 + "px";
-  };
+  if (store.state.dragging) {
+    store.commit("giveItem", props.villager.name);
+    store.commit("changeQuantity", { name: store.state.dragging, value: -1 });
+  }
 }
 
 const props = defineProps({
