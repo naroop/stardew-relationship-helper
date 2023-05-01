@@ -15,7 +15,7 @@ export interface Villager {
   imgURL: string;
   iconURL: string;
   wikiURL: string;
-  hearts: number;
+  friendshipPoints: number;
   isMarried: boolean;
   loves: Item[];
 }
