@@ -33,7 +33,7 @@
         />
       </div>
     </div>
-    <div class="col-span-2 flex flex-col justify-between items-end">
+    <div class="col-span-1 flex flex-col justify-between items-end">
       <font-awesome-icon class="p-2 text-warning" icon="fa-solid fa-cake-candles" beat-fade size="xl" />
       <button class="btn btn-xs rounded-br rounded-tl rounded-none text-error">
         <font-awesome-icon icon="fa-solid fa-xmark" size="lg" @click="stopTracking" />
