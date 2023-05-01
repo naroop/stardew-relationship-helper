@@ -1,5 +1,5 @@
 <template>
-  <div draggable="true" @mousedown="startDrag" @mouseup="stopDrag" ref="self">
+  <div draggable="true" @mousedown="startDrag" @mouseup="stopDrag" ref="self" class="cursor-pointer">
     <slot></slot>
   </div>
   <div ref="placeholder" v-show="dragging"></div>
@@ -28,6 +28,8 @@ function stopDrag() {
     self.value.style.position = "static";
     self.value.style.top = null;
     self.value.style.left = null;
+    self.value.style.width = null;
+    self.value.style.height = null;
     self.value.style.transition = null;
     self.value.style["z-index"] = null;
   }, 280);
