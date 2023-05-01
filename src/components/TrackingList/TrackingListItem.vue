@@ -9,7 +9,7 @@
       </h1>
       <div class="row-span-1 flex flex-row items-center">
         <img class="object-contain h-9" src="@/assets/heart-icon.webp" />
-        <h1 class="text-4xl flex items-center ml-1 pb-1">{{ props.villager.hearts }}</h1>
+        <h1 class="text-4xl flex items-center ml-1 pb-1">{{ props.villager.friendshipPoints }}</h1>
         <img class="object-contain h-9 ml-3" v-if="villager.isMarried" src="@/assets/mermaids-pendant.png" />
       </div>
     </div>
@@ -32,8 +32,10 @@
       </div>
     </div>
     <div class="col-span-2 flex flex-col justify-between items-end">
-      <img class="w-10 pt-1 pr-1" src="https://stardewvalleywiki.com/mediawiki/images/3/32/Pink_Cake.png" />
-      <button class="btn btn-xs rounded-br rounded-none">Edit</button>
+      <font-awesome-icon class="p-2 text-warning" icon="fa-solid fa-cake-candles" beat-fade size="xl" />
+      <button class="btn btn-xs rounded-br rounded-tl rounded-none text-error">
+        <font-awesome-icon icon="fa-solid fa-xmark" size="lg" @click="stopTracking" />
+      </button>
     </div>
   </div>
 </template>
@@ -45,4 +47,8 @@ import store from "@/store";
 const props = defineProps({
   villager: { type: Object as () => Villager, required: true },
 });
+
+function stopTracking() {
+  return;
+}
 </script>
