@@ -35,15 +35,15 @@
     </div>
     <div class="col-span-1 flex flex-col justify-between items-end">
       <font-awesome-icon class="p-2 text-warning" icon="fa-solid fa-cake-candles" beat-fade size="xl" />
-      <button class="btn btn-xs rounded-br rounded-tl rounded-none text-error">
-        <font-awesome-icon icon="fa-solid fa-xmark" size="lg" @click="stopTracking" />
+      <button class="btn btn-xs rounded-br rounded-tl rounded-none text-error" @click="stopTracking">
+        <font-awesome-icon icon="fa-solid fa-xmark" size="lg" />
       </button>
     </div>
   </div>
 </template>
 <script setup lang="ts">
-import { Villager } from "@/store";
-import { defineProps, ref } from "vue";
+import { Villager } from "@/models";
+import { defineProps } from "vue";
 import store from "@/store";
 import DraggableItem from "../DraggableItem.vue";
 
@@ -56,9 +56,10 @@ function itemDrop() {
 
 const props = defineProps({
   villager: { type: Object as () => Villager, required: true },
+  index: { type: Number, required: true },
 });
 
 function stopTracking() {
-  return;
+  store.commit("stopTracking", props.index);
 }
 </script>
