@@ -7,7 +7,6 @@ interface State {
   trackedVillagers: Villager[];
   inventory: Item[];
   date: Date;
-  dragging: string;
 }
 
 export interface Villager {
@@ -38,7 +37,6 @@ const store = createStore<State>({
     trackedVillagers: [],
     inventory: [],
     date: { season: "Spring", day: 1 },
-    dragging: "",
   },
   getters: {},
   mutations: {
@@ -75,9 +73,9 @@ const store = createStore<State>({
         item.quantity += params.value;
       }
     },
-    giveItem(state: State, villagerName: string) {
-      const villager = state.trackedVillagers.find((v) => v.name === villagerName);
-      if (villager) villager.name = state.dragging;
+    giveItem(state: State, params: { villager: string; item: string }) {
+      const villager = state.trackedVillagers.find((v) => v.name === params.villager);
+      if (villager) villager.name = params.item;
     },
   },
   modules: {},
@@ -87,8 +85,8 @@ export default store;
 
 store.watch(
   (state) => state.trackedVillagers,
-  (newValue, oldValue) => {
-    localStorage.setItem("trackedVillagers", JSON.stringify(newValue));
+  (value) => {
+    localStorage.setItem("trackedVillagers", JSON.stringify(value));
   },
   {
     deep: true,
@@ -97,8 +95,8 @@ store.watch(
 
 store.watch(
   (state) => state.inventory,
-  (newValue, oldValue) => {
-    localStorage.setItem("inventory", JSON.stringify(newValue));
+  (value) => {
+    localStorage.setItem("inventory", JSON.stringify(value));
   },
   {
     deep: true,

@@ -6,8 +6,9 @@
 </template>
 
 <script setup lang="ts">
-import { Ref, ref, defineProps } from "vue";
-import store from "@/store";
+import { Ref, ref, defineProps, defineEmits } from "vue";
+
+const emit = defineEmits(["drop"]);
 
 const props = defineProps({
   name: { type: String, required: true },
@@ -19,26 +20,26 @@ const placeholder: Ref<Element> | Ref<any> = ref(null);
 const start: Ref<any> = ref({ x: null, y: null });
 
 function stopDrag() {
-  store.state.dragging = "";
+  emit("drop", props.name);
   self.value.style.transition = "300ms";
   self.value.style.top = start.value.y + "px";
   self.value.style.left = start.value.x + "px";
+  let el = self.value;
   setTimeout(() => {
     dragging.value = false;
-    self.value.style.position = "static";
-    self.value.style.top = null;
-    self.value.style.left = null;
-    self.value.style.width = null;
-    self.value.style.height = null;
-    self.value.style.transition = null;
-    self.value.style["z-index"] = null;
+    el.style.position = null;
+    el.style.top = null;
+    el.style.left = null;
+    el.style.width = null;
+    el.style.height = null;
+    el.style.transition = null;
+    el.style["z-index"] = null;
   }, 280);
   document.onmousemove = null;
 }
 
 function startDrag(e: MouseEvent) {
   dragging.value = true;
-  store.state.dragging = props.name;
   const width = self.value.clientWidth;
   const height = self.value.clientHeight;
   start.value.x = self.value.getBoundingClientRect().left;

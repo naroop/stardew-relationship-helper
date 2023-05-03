@@ -13,13 +13,14 @@
         <img class="object-contain h-9 ml-3" v-if="villager.isMarried" src="@/assets/mermaids-pendant.png" />
       </div>
     </div>
-    <div class="col-span-1 bg-secondary m-3 rounded" @mouseup="itemDrop"></div>
+    <ShippingBin @hover="setBinHover" />
     <div class="col-span-6 grid grid-rows-2">
       <div class="row-span-1 flex flex-row">
         <DraggableItem
           v-for="item in store.state.inventory.filter((i) => villager.loves.some((j) => i.name === j.name) && i.quantity > 0)"
           :key="item.name"
           :name="item.name"
+          @drop="itemDrop"
         >
           <img class="object-contain h-4/5" :src="item.imgURL" draggable="false" />
         </DraggableItem>
@@ -43,20 +44,27 @@
 </template>
 <script setup lang="ts">
 import { Villager } from "@/store";
-import { defineProps, ref } from "vue";
+import { defineProps, nextTick, ref } from "vue";
 import store from "@/store";
 import DraggableItem from "../DraggableItem.vue";
+import ShippingBin from "../TrackingList/ShippingBin.vue";
 
-function itemDrop() {
-  if (store.state.dragging) {
-    store.commit("giveItem", props.villager.name);
-    store.commit("changeQuantity", { name: store.state.dragging, value: -1 });
+const binHover = ref(false);
+
+function itemDrop(itemName: string) {
+  if (binHover.value) {
+    store.commit("giveItem", { villager: props.villager.name, item: itemName });
+    store.commit("changeQuantity", { name: itemName, value: -1 });
   }
 }
 
 const props = defineProps({
   villager: { type: Object as () => Villager, required: true },
 });
+
+const setBinHover = (value: boolean) => {
+  binHover.value = value;
+};
 
 function stopTracking() {
   return;
