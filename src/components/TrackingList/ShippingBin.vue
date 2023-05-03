@@ -3,12 +3,12 @@
 </template>
 
 <script setup lang="ts">
-import { ref, defineEmits } from "vue";
+import { ref, defineEmits, Ref } from "vue";
 
 const emit = defineEmits(["hover"]);
 
-const hovering = ref(false);
-const bin = ref(null);
+const hovering: Ref<boolean> = ref(false);
+const bin: Ref<HTMLElement> = ref(new HTMLElement());
 
 window.onmousemove = (e) => {
   let rect = bin.value.getBoundingClientRect();

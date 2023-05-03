@@ -1,6 +1,5 @@
 import { createStore } from "vuex";
 import data from "./data.json";
-import { watch } from "vue";
 
 interface State {
   untrackedVillagers: Villager[];

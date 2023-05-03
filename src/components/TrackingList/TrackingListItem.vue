@@ -44,7 +44,7 @@
 </template>
 <script setup lang="ts">
 import { Villager } from "@/store";
-import { defineProps, nextTick, ref } from "vue";
+import { defineProps, ref } from "vue";
 import store from "@/store";
 import DraggableItem from "../DraggableItem.vue";
 import ShippingBin from "../TrackingList/ShippingBin.vue";

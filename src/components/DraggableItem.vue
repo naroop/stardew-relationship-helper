@@ -14,10 +14,10 @@ const props = defineProps({
   name: { type: String, required: true },
 });
 
-const self: Ref<Element> | Ref<any> = ref(null);
+const self: Ref<HTMLElement> = ref(new HTMLElement());
 const dragging: Ref<boolean> = ref(false);
-const placeholder: Ref<Element> | Ref<any> = ref(null);
-const start: Ref<any> = ref({ x: null, y: null });
+const placeholder: Ref<HTMLElement> = ref(new HTMLElement());
+const start: Ref<{ x: number; y: number }> = ref({ x: 0, y: 0 });
 
 function stopDrag() {
   emit("drop", props.name);
@@ -27,13 +27,13 @@ function stopDrag() {
   let el = self.value;
   setTimeout(() => {
     dragging.value = false;
-    el.style.position = null;
-    el.style.top = null;
-    el.style.left = null;
-    el.style.width = null;
-    el.style.height = null;
-    el.style.transition = null;
-    el.style["z-index"] = null;
+    el.style.position = "";
+    el.style.top = "";
+    el.style.left = "";
+    el.style.width = "";
+    el.style.height = "";
+    el.style.transition = "";
+    el.style["z-index"] = "";
   }, 280);
   document.onmousemove = null;
 }
