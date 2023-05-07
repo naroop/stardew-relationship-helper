@@ -36,8 +36,6 @@
       </ul>
     </div>
   </div>
-  <input type="checkbox" id="my-modal" class="modal-toggle" />
-
   <div :class="['modal', modalOpen ? 'modal-open' : '']">
     <div class="modal-box">
       <h3 class="font-bold text-lg">Import Save File</h3>
