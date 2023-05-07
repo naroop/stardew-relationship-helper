@@ -42,7 +42,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import { Villager } from "@/models";
+import type { Villager } from "@/models";
 import { defineProps } from "vue";
 import store from "@/store";
 import DraggableItem from "../DraggableItem.vue";

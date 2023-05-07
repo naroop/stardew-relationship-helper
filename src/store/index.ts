@@ -33,6 +33,13 @@ const store = createStore<State>({
       const localInventory = localStorage.getItem("inventory");
       state.inventory = localInventory ? JSON.parse(localInventory) : [];
     },
+    reset(state: State) {
+      data.forEach((villager) => villager.loves.sort((item1, item2) => (item1.name > item2.name ? 1 : -1)));
+      state.untrackedVillagers = data as Villager[];
+      state.trackedVillagers = [];
+      state.inventory = [];
+      state.date = { season: "Spring", day: 1 };
+    },
     startTracking(state: State, index: number) {
       const vill: Villager = removeVillager(index, state.untrackedVillagers);
       state.trackedVillagers.push(vill);
