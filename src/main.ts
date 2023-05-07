@@ -5,8 +5,9 @@ import store from "./store";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-import { faXmark, faCakeCandles, faBars } from "@fortawesome/free-solid-svg-icons";
+import { faXmark, faCakeCandles } from "@fortawesome/free-solid-svg-icons";
+import { faApple, faWindows } from "@fortawesome/free-brands-svg-icons";
 
-library.add(faXmark, faCakeCandles, faBars);
+library.add(faXmark, faCakeCandles, faApple, faWindows);
 
 createApp(App).component("font-awesome-icon", FontAwesomeIcon).use(store).use(router).mount("#app");
