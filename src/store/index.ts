@@ -40,10 +40,15 @@ const store = createStore<State>({
       state.inventory = [];
       state.date = { season: "Spring", day: 1 };
     },
+    addSaveFileData(state: State, saveData: [{ name: string; friendshipPoints: number; status: string }]) {
+      state.trackedVillagers.forEach((trackedVillager) => {
+        trackedVillager.friendshipPoints = saveData.find((villager) => villager.name === trackedVillager.name)!.friendshipPoints;
+      });
+      console.log(state.trackedVillagers);
+    },
     startTracking(state: State, index: number) {
       const vill: Villager = removeVillager(index, state.untrackedVillagers);
       state.trackedVillagers.push(vill);
-      console.log(state.trackedVillagers);
       addItemsToInventory(state.inventory, vill.loves);
     },
     stopTracking(state: State, index: number) {
