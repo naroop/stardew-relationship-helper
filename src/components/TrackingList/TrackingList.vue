@@ -1,6 +1,12 @@
 <template lang="html">
   <div class="flex flex-col gap-3 p-2">
-    <TrackingListItem v-for="villager in store.state.trackedVillagers" :key="villager.name" :villager="villager" ref="items"></TrackingListItem>
+    <TrackingListItem
+      v-for="(villager, index) in store.state.trackedVillagers"
+      :key="villager.name"
+      :villager="villager"
+      :index="index"
+      ref="items"
+    />
   </div>
 </template>
 <script setup lang="ts">
@@ -33,8 +39,4 @@ const itemDrop = () => {
 };
 
 provide("itemDrop", itemDrop);
-
-function stopTracking(i: number) {
-  store.commit("stopTracking", store.state.trackedVillagers[i].name);
-}
 </script>

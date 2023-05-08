@@ -1,36 +1,16 @@
 import { createStore } from "vuex";
 import type { Store } from "vuex";
 import data from "./data.json";
+import { Item, Villager, StardewDate } from "@/models/index";
+import { faSortAmountAsc } from "@fortawesome/free-solid-svg-icons";
 
 interface State {
   untrackedVillagers: Villager[];
   trackedVillagers: Villager[];
   inventory: Item[];
-  date: Date;
+  date: StardewDate;
   dragging: string;
   hovering: string;
-}
-
-export interface Villager {
-  name: string;
-  imgURL: string;
-  iconURL: string;
-  wikiURL: string;
-  friendshipPoints: number;
-  isMarried: boolean;
-  loves: Item[];
-}
-
-export interface Item {
-  name: string;
-  wikiURL: string;
-  imgURL: string;
-  quantity: number;
-}
-
-export interface Date {
-  season: string;
-  day: number;
 }
 
 const store: Store<State> = createStore<State>({
@@ -58,6 +38,19 @@ const store: Store<State> = createStore<State>({
       const localInventory = localStorage.getItem("inventory");
       state.inventory = localInventory ? JSON.parse(localInventory) : [];
     },
+    reset(state: State) {
+      data.forEach((villager) => villager.loves.sort((item1, item2) => (item1.name > item2.name ? 1 : -1)));
+      state.untrackedVillagers = data as Villager[];
+      state.trackedVillagers = [];
+      state.inventory = [];
+      state.date = { season: "Spring", day: 1 };
+    },
+    addSaveFileData(state: State, saveData: [{ name: string; friendshipPoints: number; status: string }]) {
+      state.trackedVillagers.forEach((trackedVillager) => {
+        trackedVillager.friendshipPoints = saveData.find((villager) => villager.name === trackedVillager.name)!.friendshipPoints;
+      });
+      console.log(state.trackedVillagers);
+    },
     startTracking(state: State, index: number) {
       // Remove and retrieve villager from untracked list
       const vill: Villager = removeVillager(index, state.untrackedVillagers);
@@ -69,7 +62,10 @@ const store: Store<State> = createStore<State>({
       addItemsToInventory(state.inventory, vill.loves);
     },
     stopTracking(state: State, index: number) {
-      state.untrackedVillagers.push(removeVillager(index, state.trackedVillagers));
+      const vill: Villager = removeVillager(index, state.trackedVillagers);
+      state.untrackedVillagers.push(vill);
+      state.untrackedVillagers.sort((a, b) => (a.name > b.name ? 1 : -1));
+      removeItemsFromInventory(state.inventory, vill.loves);
     },
     changeQuantity(state: State, params: { name: string; value: number }) {
       const item = state.inventory.find((item) => item.name === params.name);
@@ -77,13 +73,16 @@ const store: Store<State> = createStore<State>({
         item.quantity += params.value;
       }
     },
+    changeFriendship(state: State, params: { villager: string; amount: number }) {
+      console.log(params);
+      const villager = state.trackedVillagers.find((v) => v.name === params.villager);
+      if (villager) villager.friendshipPoints += params.amount;
+    },
   },
   actions: {
     itemDrop(context) {
       if (context.state.dragging && context.state.hovering) {
-        const villager = context.state.trackedVillagers.find((v) => v.name === context.state.hovering);
-        // change villagers affection points
-        if (villager) villager.name = villager.name + "1";
+        context.commit("changeFriendship", { villager: context.state.hovering, amount: 250 });
         context.commit("changeQuantity", { name: context.state.dragging, value: -1 });
       }
     },
@@ -123,7 +122,24 @@ function addItemsToInventory(inventory: Item[], itemsToAdd: Item[]) {
   for (const item of itemsToAdd) {
     item.quantity = 0;
     if (!inventory.some((existingItem) => existingItem.name === item.name)) {
+      item.loveCount = 1;
       inventory.push(item);
+    } else {
+      inventory[inventory.findIndex((invItem) => invItem.name === item.name)].loveCount++;
+    }
+  }
+}
+
+function removeItemsFromInventory(inventory: Item[], itemsToRemove: Item[]) {
+  for (const item of itemsToRemove) {
+    for (let i = 0; i < inventory.length; i++) {
+      if (item.name === inventory[i].name) {
+        if (inventory[i].loveCount === 1) {
+          inventory.splice(i, 1);
+        } else {
+          inventory[i].loveCount--;
+        }
+      }
     }
   }
 }
