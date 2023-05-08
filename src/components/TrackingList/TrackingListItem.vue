@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="grid grid-cols-12 bg-base-300 rounded shadow-md shadow-black" ref="listItem">
+  <div class="grid grid-cols-12 bg-base-300 rounded shadow-md shadow-black">
     <a class="col-span-2 hover:brightness-75" target="_blank" :href="props.villager.wikiURL">
       <img class="object-contain" :src="props.villager.imgURL" :id="props.villager.name + 'Image'" />
     </a>
@@ -15,7 +15,7 @@
         <img class="object-contain h-9 ml-3" v-if="villager.isMarried" src="@/assets/mermaids-pendant.png" />
       </div>
     </div>
-    <ShippingBin ref="bin" />
+    <div class="col-span-1 bg-secondary m-3 rounded" @mouseup="itemDrop"></div>
     <div class="col-span-6 grid grid-rows-2">
       <div class="row-span-1 flex flex-row">
         <DraggableItem
@@ -47,11 +47,16 @@
 import type { Villager } from "@/models";
 import { defineProps, ref, defineExpose } from "vue";
 import type { Ref } from "vue";
+
 import store from "@/store";
 import DraggableItem from "../DraggableItem.vue";
-import ShippingBin from "../TrackingList/ShippingBin.vue";
 
-const bin: Ref<typeof ShippingBin> = ref(ShippingBin);
+function itemDrop() {
+  if (store.state.dragging) {
+    store.commit("giveItem", props.villager.name);
+    store.commit("changeQuantity", { name: store.state.dragging, value: -1 });
+  }
+}
 
 const props = defineProps({
   villager: { type: Object as () => Villager, required: true },
@@ -61,6 +66,4 @@ const props = defineProps({
 function stopTracking() {
   store.commit("stopTracking", props.index);
 }
-
-defineExpose({ bin, villager: props.villager });
 </script>
