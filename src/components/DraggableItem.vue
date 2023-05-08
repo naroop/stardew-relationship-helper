@@ -6,21 +6,24 @@
 </template>
 
 <script setup lang="ts">
-import { Ref, ref, defineProps, defineEmits } from "vue";
-
-const emit = defineEmits(["drop"]);
+import store from "@/store";
+import { Ref, ref, defineProps, inject } from "vue";
 
 const props = defineProps({
   name: { type: String, required: true },
 });
 
-const self: Ref<HTMLElement> = ref(new HTMLElement());
+const itemDrop: () => void = inject("itemDrop") as () => void;
+
+const self: Ref<HTMLElement> = ref(document.createElement("div"));
 const dragging: Ref<boolean> = ref(false);
-const placeholder: Ref<HTMLElement> = ref(new HTMLElement());
+const placeholder: Ref<HTMLElement> = ref(document.createElement("div"));
 const start: Ref<{ x: number; y: number }> = ref({ x: 0, y: 0 });
 
 function stopDrag() {
-  emit("drop", props.name);
+  itemDrop();
+  store.dispatch("itemDrop");
+  store.state.dragging = "";
   self.value.style.transition = "300ms";
   self.value.style.top = start.value.y + "px";
   self.value.style.left = start.value.x + "px";
@@ -40,6 +43,7 @@ function stopDrag() {
 
 function startDrag(e: MouseEvent) {
   dragging.value = true;
+  store.state.dragging = props.name;
   const width = self.value.clientWidth;
   const height = self.value.clientHeight;
   start.value.x = self.value.getBoundingClientRect().left;

@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="grid grid-cols-12 bg-base-300 rounded shadow-md shadow-black">
+  <div class="grid grid-cols-12 bg-base-300 rounded shadow-md shadow-black" ref="listItem">
     <a class="col-span-2 hover:brightness-75" target="_blank" :href="props.villager.wikiURL">
       <img class="object-contain" :src="props.villager.imgURL" :id="props.villager.name + 'Image'" />
     </a>
@@ -13,14 +13,13 @@
         <img class="object-contain h-9 ml-3" v-if="villager.isMarried" src="@/assets/mermaids-pendant.png" />
       </div>
     </div>
-    <ShippingBin @hover="setBinHover" />
+    <ShippingBin ref="bin" />
     <div class="col-span-6 grid grid-rows-2">
       <div class="row-span-1 flex flex-row">
         <DraggableItem
           v-for="item in store.state.inventory.filter((i) => villager.loves.some((j) => i.name === j.name) && i.quantity > 0)"
           :key="item.name"
           :name="item.name"
-          @drop="itemDrop"
         >
           <img class="object-contain h-4/5" :src="item.imgURL" draggable="false" />
         </DraggableItem>
@@ -43,30 +42,22 @@
   </div>
 </template>
 <script setup lang="ts">
-import { Villager } from "@/store";
-import { defineProps, ref } from "vue";
+import type { Villager } from "@/store";
+import { defineProps, ref, defineExpose } from "vue";
+import type { Ref } from "vue";
 import store from "@/store";
 import DraggableItem from "../DraggableItem.vue";
 import ShippingBin from "../TrackingList/ShippingBin.vue";
 
-const binHover = ref(false);
-
-function itemDrop(itemName: string) {
-  if (binHover.value) {
-    store.commit("giveItem", { villager: props.villager.name, item: itemName });
-    store.commit("changeQuantity", { name: itemName, value: -1 });
-  }
-}
+const bin: Ref<typeof ShippingBin> = ref(ShippingBin);
 
 const props = defineProps({
   villager: { type: Object as () => Villager, required: true },
 });
 
-const setBinHover = (value: boolean) => {
-  binHover.value = value;
-};
-
 function stopTracking() {
   return;
 }
+
+defineExpose({ bin, villager: props.villager });
 </script>

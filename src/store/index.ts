@@ -1,4 +1,5 @@
 import { createStore } from "vuex";
+import type { Store } from "vuex";
 import data from "./data.json";
 
 interface State {
@@ -6,6 +7,8 @@ interface State {
   trackedVillagers: Villager[];
   inventory: Item[];
   date: Date;
+  dragging: string;
+  hovering: string;
 }
 
 export interface Villager {
@@ -30,12 +33,14 @@ export interface Date {
   day: number;
 }
 
-const store = createStore<State>({
+const store: Store<State> = createStore<State>({
   state: {
     untrackedVillagers: [],
     trackedVillagers: [],
     inventory: [],
     date: { season: "Spring", day: 1 },
+    dragging: "",
+    hovering: "",
   },
   getters: {},
   mutations: {
@@ -72,9 +77,15 @@ const store = createStore<State>({
         item.quantity += params.value;
       }
     },
-    giveItem(state: State, params: { villager: string; item: string }) {
-      const villager = state.trackedVillagers.find((v) => v.name === params.villager);
-      if (villager) villager.name = params.item;
+  },
+  actions: {
+    itemDrop(context) {
+      if (context.state.dragging && context.state.hovering) {
+        const villager = context.state.trackedVillagers.find((v) => v.name === context.state.hovering);
+        // change villagers affection points
+        if (villager) villager.name = villager.name + "1";
+        context.commit("changeQuantity", { name: context.state.dragging, value: -1 });
+      }
     },
   },
   modules: {},
