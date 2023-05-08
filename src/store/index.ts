@@ -74,7 +74,6 @@ const store: Store<State> = createStore<State>({
       }
     },
     changeFriendship(state: State, params: { villager: string; amount: number }) {
-      console.log(params);
       const villager = state.trackedVillagers.find((v) => v.name === params.villager);
       if (villager) villager.friendshipPoints += params.amount;
     },
