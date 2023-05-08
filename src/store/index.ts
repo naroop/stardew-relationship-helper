@@ -1,22 +1,46 @@
 import { createStore } from "vuex";
+import type { Store } from "vuex";
 import data from "./data.json";
-import { Item, Villager, StardewDate } from "@/models/index";
 
 interface State {
   untrackedVillagers: Villager[];
   trackedVillagers: Villager[];
   inventory: Item[];
-  date: StardewDate;
+  date: Date;
   dragging: string;
+  hovering: string;
 }
 
-const store = createStore<State>({
+export interface Villager {
+  name: string;
+  imgURL: string;
+  iconURL: string;
+  wikiURL: string;
+  friendshipPoints: number;
+  isMarried: boolean;
+  loves: Item[];
+}
+
+export interface Item {
+  name: string;
+  wikiURL: string;
+  imgURL: string;
+  quantity: number;
+}
+
+export interface Date {
+  season: string;
+  day: number;
+}
+
+const store: Store<State> = createStore<State>({
   state: {
     untrackedVillagers: [],
     trackedVillagers: [],
     inventory: [],
     date: { season: "Spring", day: 1 },
     dragging: "",
+    hovering: "",
   },
   getters: {},
   mutations: {
@@ -30,32 +54,22 @@ const store = createStore<State>({
       } else {
         state.untrackedVillagers = data as Villager[];
       }
+
       const localInventory = localStorage.getItem("inventory");
       state.inventory = localInventory ? JSON.parse(localInventory) : [];
     },
-    reset(state: State) {
-      data.forEach((villager) => villager.loves.sort((item1, item2) => (item1.name > item2.name ? 1 : -1)));
-      state.untrackedVillagers = data as Villager[];
-      state.trackedVillagers = [];
-      state.inventory = [];
-      state.date = { season: "Spring", day: 1 };
-    },
-    addSaveFileData(state: State, saveData: [{ name: string; friendshipPoints: number; status: string }]) {
-      state.trackedVillagers.forEach((trackedVillager) => {
-        trackedVillager.friendshipPoints = saveData.find((villager) => villager.name === trackedVillager.name)!.friendshipPoints;
-      });
-      console.log(state.trackedVillagers);
-    },
     startTracking(state: State, index: number) {
+      // Remove and retrieve villager from untracked list
       const vill: Villager = removeVillager(index, state.untrackedVillagers);
+
+      // Add villager to tracked villagers
       state.trackedVillagers.push(vill);
+
+      // Add villager's like items to inventory
       addItemsToInventory(state.inventory, vill.loves);
     },
     stopTracking(state: State, index: number) {
-      const vill: Villager = removeVillager(index, state.trackedVillagers);
-      state.untrackedVillagers.push(vill);
-      state.untrackedVillagers.sort((a, b) => (a.name > b.name ? 1 : -1));
-      removeItemsFromInventory(state.inventory, vill.loves);
+      state.untrackedVillagers.push(removeVillager(index, state.trackedVillagers));
     },
     changeQuantity(state: State, params: { name: string; value: number }) {
       const item = state.inventory.find((item) => item.name === params.name);
@@ -63,9 +77,15 @@ const store = createStore<State>({
         item.quantity += params.value;
       }
     },
-    giveItem(state: State, villagerName: string) {
-      const villager = state.trackedVillagers.find((v) => v.name === villagerName);
-      if (villager) villager.name = state.dragging;
+  },
+  actions: {
+    itemDrop(context) {
+      if (context.state.dragging && context.state.hovering) {
+        const villager = context.state.trackedVillagers.find((v) => v.name === context.state.hovering);
+        // change villagers affection points
+        if (villager) villager.name = villager.name + "1";
+        context.commit("changeQuantity", { name: context.state.dragging, value: -1 });
+      }
     },
   },
   modules: {},
@@ -75,8 +95,8 @@ export default store;
 
 store.watch(
   (state) => state.trackedVillagers,
-  (newValue) => {
-    localStorage.setItem("trackedVillagers", JSON.stringify(newValue));
+  (value) => {
+    localStorage.setItem("trackedVillagers", JSON.stringify(value));
   },
   {
     deep: true,
@@ -85,8 +105,8 @@ store.watch(
 
 store.watch(
   (state) => state.inventory,
-  (newValue) => {
-    localStorage.setItem("inventory", JSON.stringify(newValue));
+  (value) => {
+    localStorage.setItem("inventory", JSON.stringify(value));
   },
   {
     deep: true,
@@ -103,24 +123,7 @@ function addItemsToInventory(inventory: Item[], itemsToAdd: Item[]) {
   for (const item of itemsToAdd) {
     item.quantity = 0;
     if (!inventory.some((existingItem) => existingItem.name === item.name)) {
-      item.loveCount = 1;
       inventory.push(item);
-    } else {
-      inventory[inventory.findIndex((invItem) => invItem.name === item.name)].loveCount++;
-    }
-  }
-}
-
-function removeItemsFromInventory(inventory: Item[], itemsToRemove: Item[]) {
-  for (const item of itemsToRemove) {
-    for (let i = 0; i < inventory.length; i++) {
-      if (item.name === inventory[i].name) {
-        if (inventory[i].loveCount === 1) {
-          inventory.splice(i, 1);
-        } else {
-          inventory[i].loveCount--;
-        }
-      }
     }
   }
 }
