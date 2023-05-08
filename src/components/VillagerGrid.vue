@@ -14,7 +14,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import store, { Villager } from "@/store";
+import store from "@/store";
 
 function startTracking(i: number) {
   store.commit("startTracking", i);
