@@ -1,7 +1,6 @@
 import { createStore } from "vuex";
 import data from "./data.json";
 import { Item, Villager, StardewDate } from "@/models/index";
-import { faSortAmountAsc } from "@fortawesome/free-solid-svg-icons";
 
 interface State {
   untrackedVillagers: Villager[];
@@ -11,7 +10,7 @@ interface State {
   dragging: string;
 }
 
-const store: Store<State> = createStore<State>({
+const store = createStore<State>({
   state: {
     untrackedVillagers: [],
     trackedVillagers: [],
@@ -64,17 +63,9 @@ const store: Store<State> = createStore<State>({
         item.quantity += params.value;
       }
     },
-    changeFriendship(state: State, params: { villager: string; amount: number }) {
-      const villager = state.trackedVillagers.find((v) => v.name === params.villager);
-      if (villager) villager.friendshipPoints += params.amount;
-    },
-  },
-  actions: {
-    itemDrop(context) {
-      if (context.state.dragging && context.state.hovering) {
-        context.commit("changeFriendship", { villager: context.state.hovering, amount: 250 });
-        context.commit("changeQuantity", { name: context.state.dragging, value: -1 });
-      }
+    giveItem(state: State, villagerName: string) {
+      const villager = state.trackedVillagers.find((v) => v.name === villagerName);
+      if (villager) villager.name = state.dragging;
     },
   },
   modules: {},
