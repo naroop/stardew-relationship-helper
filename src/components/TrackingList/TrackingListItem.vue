@@ -45,7 +45,9 @@
 </template>
 <script setup lang="ts">
 import type { Villager } from "@/models";
-import { defineProps } from "vue";
+import { defineProps, ref, defineExpose } from "vue";
+import type { Ref } from "vue";
+
 import store from "@/store";
 import DraggableItem from "../DraggableItem.vue";
 
