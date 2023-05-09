@@ -12,7 +12,7 @@ interface State {
   hovering: string;
 }
 
-const store = createStore<State>({
+const store: Store<State> = createStore<State>({
   state: {
     untrackedVillagers: [],
     trackedVillagers: [],
@@ -72,9 +72,17 @@ const store = createStore<State>({
         item.quantity += params.value;
       }
     },
-    giveItem(state: State, villagerName: string) {
-      const villager = state.trackedVillagers.find((v) => v.name === villagerName);
-      if (villager) villager.name = state.dragging;
+    changeFriendship(state: State, params: { villager: string; amount: number }) {
+      const villager = state.trackedVillagers.find((v) => v.name === params.villager);
+      if (villager) villager.friendshipPoints += params.amount;
+    },
+  },
+  actions: {
+    itemDrop(context) {
+      if (context.state.dragging && context.state.hovering) {
+        context.commit("changeFriendship", { villager: context.state.hovering, amount: 250 });
+        context.commit("changeQuantity", { name: context.state.dragging, value: -1 });
+      }
     },
   },
   modules: {},
