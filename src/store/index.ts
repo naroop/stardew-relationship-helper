@@ -1,4 +1,5 @@
 import { createStore } from "vuex";
+import type { Store } from "vuex";
 import data from "./data.json";
 import { Item, Villager, StardewDate } from "@/models/index";
 
@@ -8,6 +9,7 @@ interface State {
   inventory: Item[];
   date: StardewDate;
   dragging: string;
+  hovering: string;
 }
 
 const store = createStore<State>({
@@ -17,6 +19,7 @@ const store = createStore<State>({
     inventory: [],
     date: { season: "Spring", day: 1 },
     dragging: "",
+    hovering: "",
   },
   getters: {},
   mutations: {
@@ -30,6 +33,7 @@ const store = createStore<State>({
       } else {
         state.untrackedVillagers = data as Villager[];
       }
+
       const localInventory = localStorage.getItem("inventory");
       state.inventory = localInventory ? JSON.parse(localInventory) : [];
     },
@@ -47,8 +51,13 @@ const store = createStore<State>({
       console.log(state.trackedVillagers);
     },
     startTracking(state: State, index: number) {
+      // Remove and retrieve villager from untracked list
       const vill: Villager = removeVillager(index, state.untrackedVillagers);
+
+      // Add villager to tracked villagers
       state.trackedVillagers.push(vill);
+
+      // Add villager's like items to inventory
       addItemsToInventory(state.inventory, vill.loves);
     },
     stopTracking(state: State, index: number) {
@@ -75,8 +84,8 @@ export default store;
 
 store.watch(
   (state) => state.trackedVillagers,
-  (newValue) => {
-    localStorage.setItem("trackedVillagers", JSON.stringify(newValue));
+  (value) => {
+    localStorage.setItem("trackedVillagers", JSON.stringify(value));
   },
   {
     deep: true,
@@ -85,8 +94,8 @@ store.watch(
 
 store.watch(
   (state) => state.inventory,
-  (newValue) => {
-    localStorage.setItem("inventory", JSON.stringify(newValue));
+  (value) => {
+    localStorage.setItem("inventory", JSON.stringify(value));
   },
   {
     deep: true,
