@@ -1,35 +1,42 @@
 <template>
-  <div draggable="true" @mousedown="startDrag" @mouseup="stopDrag" ref="self">
+  <div draggable="true" @mousedown="startDrag" @mouseup="stopDrag" ref="self" class="cursor-pointer">
     <slot></slot>
   </div>
   <div ref="placeholder" v-show="dragging"></div>
 </template>
 
 <script setup lang="ts">
-import { Ref, ref, defineProps } from "vue";
 import store from "@/store";
+import { Ref, ref, defineProps, inject } from "vue";
 
 const props = defineProps({
   name: { type: String, required: true },
 });
 
-const self: Ref<Element> | Ref<any> = ref(null);
+const itemDrop: () => void = inject("itemDrop") as () => void;
+
+const self: Ref<HTMLElement> = ref(document.createElement("div"));
 const dragging: Ref<boolean> = ref(false);
-const placeholder: Ref<Element> | Ref<any> = ref(null);
-const start: Ref<any> = ref({ x: null, y: null });
+const placeholder: Ref<HTMLElement> = ref(document.createElement("div"));
+const start: Ref<{ x: number; y: number }> = ref({ x: 0, y: 0 });
 
 function stopDrag() {
+  itemDrop();
+  store.dispatch("itemDrop");
   store.state.dragging = "";
   self.value.style.transition = "300ms";
   self.value.style.top = start.value.y + "px";
   self.value.style.left = start.value.x + "px";
+  let el = self.value;
   setTimeout(() => {
     dragging.value = false;
-    self.value.style.position = "static";
-    self.value.style.top = null;
-    self.value.style.left = null;
-    self.value.style.transition = null;
-    self.value.style["z-index"] = null;
+    el.style.position = "";
+    el.style.top = "";
+    el.style.left = "";
+    el.style.width = "";
+    el.style.height = "";
+    el.style.transition = "";
+    el.style["z-index"] = "";
   }, 280);
   document.onmousemove = null;
 }

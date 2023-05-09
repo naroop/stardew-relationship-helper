@@ -32,7 +32,7 @@ const seasonIcons = {
 
 const weekdays = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
-watch(store.state.date, (newValue, oldValue) => {
-  store.state.date.day = Math.max(1, Math.min(newValue.day, 28));
+watch(store.state.date, (value) => {
+  store.state.date.day = Math.max(1, Math.min(value.day, 28));
 });
 </script>
