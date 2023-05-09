@@ -1,6 +1,6 @@
 <template>
-  <div class="flex items-center col-span-1 p-2">
-    <img class="object-fit" ref="img" :src="frames[currentFrame]" />
+  <div class="flex justify-items-center">
+    <img class="object-fit h-28" ref="img" :src="frames[currentFrame]" />
   </div>
 </template>
 

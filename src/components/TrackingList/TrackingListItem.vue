@@ -15,20 +15,20 @@
         <img class="object-contain h-9 ml-3" v-if="villager.isMarried" src="@/assets/mermaids-pendant.png" />
       </div>
     </div>
-    <ShippingBin ref="bin" />
-    <div class="col-span-6 grid grid-rows-2">
+    <ShippingBin ref="bin" class="col-span-1" />
+    <div class="col-span-6 grid grid-rows-2 py-2 gap-y-4">
       <div class="row-span-1 flex flex-row">
         <DraggableItem
           v-for="item in store.state.inventory.filter((i) => villager.loves.some((j) => i.name === j.name) && i.quantity > 0)"
           :key="item.name"
           :name="item.name"
         >
-          <img class="object-contain h-4/5" :src="item.imgURL" draggable="false" />
+          <img class="object-contain h-full" :src="item.imgURL" draggable="false" />
         </DraggableItem>
       </div>
-      <div class="row-span-1 flex flex-row">
+      <div class="row-span-1 flex flex-row h-full">
         <img
-          class="brightness-50 object-contain h-4/5"
+          class="brightness-50 object-contain"
           v-for="item in store.state.inventory.filter((i) => villager.loves.some((j) => i.name === j.name) && i.quantity === 0)"
           :key="item.name"
           :src="item.imgURL"
