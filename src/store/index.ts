@@ -53,6 +53,7 @@ const store: Store<State> = createStore<State>({
     startTracking(state: State, index: number) {
       // Remove and retrieve villager from untracked list
       const vill: Villager = removeVillager(index, state.untrackedVillagers);
+      vill.friendshipPoints = 0;
 
       // Add villager to tracked villagers
       state.trackedVillagers.push(vill);
