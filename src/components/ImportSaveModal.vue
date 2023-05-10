@@ -70,6 +70,7 @@
 import store from "@/store";
 import { Ref, ref, defineExpose } from "vue";
 import { XMLParser } from "fast-xml-parser";
+import { StardewDate } from "@/models";
 
 const modalOpen = ref(false);
 const activeTab = ref("apple");
@@ -120,7 +121,9 @@ function submitSaveFile() {
       const parsedXML = parser.parse(xml);
 
       const friendshipData = parsedXML.SaveGame.player.friendshipData.item;
-      store.commit("addSaveFileData", transformData(friendshipData));
+      const day = parsedXML.SaveGame.player.dayOfMonthForSaveGame;
+      const season = parsedXML.SaveGame.player.seasonForSaveGame;
+      store.commit("addSaveFileData", transformData(friendshipData, season, day));
       isFileLoading.value = false;
       close();
     } catch (error) {
@@ -133,14 +136,29 @@ function submitSaveFile() {
   reader.readAsText(saveFile.value);
 }
 
-function transformData(dataArray: []) {
-  return dataArray.map((entry) => {
+function transformData(dataArray: [], season: number, day: number) {
+  const friendshipData = dataArray.map((entry) => {
     const { key, value } = entry;
     const { string: name } = key;
     const { Friendship: friendship } = value;
     const { Points: friendshipPoints, Status: status } = friendship;
     return { name, friendshipPoints, status };
   });
+
+  return { friendshipData: friendshipData, date: { season: convertSeasonToString(season), day: day } };
+}
+
+function convertSeasonToString(season: number) {
+  switch (season) {
+    case 1:
+      return "Spring";
+    case 2:
+      return "Summer";
+    case 3:
+      return "Fall";
+    case 4:
+      return "Winter";
+  }
 }
 
 defineExpose({ open, close });

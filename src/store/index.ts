@@ -44,11 +44,11 @@ const store: Store<State> = createStore<State>({
       state.inventory = [];
       state.date = { season: "Spring", day: 1 };
     },
-    addSaveFileData(state: State, saveData: [{ name: string; friendshipPoints: number; status: string }]) {
+    addSaveFileData(state: State, saveData: { friendshipData: [{ name: string; friendshipPoints: number; status: string }]; date: StardewDate }) {
       state.trackedVillagers.forEach((trackedVillager) => {
-        trackedVillager.friendshipPoints = saveData.find((villager) => villager.name === trackedVillager.name)!.friendshipPoints;
+        trackedVillager.friendshipPoints = saveData.friendshipData.find((villager) => villager.name === trackedVillager.name)!.friendshipPoints;
       });
-      console.log(state.trackedVillagers);
+      state.date = saveData.date;
     },
     startTracking(state: State, index: number) {
       // Remove and retrieve villager from untracked list

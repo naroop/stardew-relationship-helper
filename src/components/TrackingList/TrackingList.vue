@@ -12,7 +12,7 @@
 <script setup lang="ts">
 import store from "@/store";
 import TrackingListItem from "./TrackingListItem.vue";
-import { provide, ref } from "vue";
+import { nextTick, provide, ref } from "vue";
 import type { Ref } from "vue";
 
 const items: Ref<Array<typeof TrackingListItem>> = ref([]);
@@ -35,6 +35,9 @@ window.onmousemove = (e: MouseEvent) => {
 const itemDrop = () => {
   items.value.forEach((item) => {
     if (item.bin.hovering) item.bin.stopHovering();
+  });
+  nextTick(() => {
+    store.state.hovering = "";
   });
 };
 
