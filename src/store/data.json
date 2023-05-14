@@ -3,6 +3,10 @@
     "name": "Abigail",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/6/63/Abigail_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/8/88/Abigail.png",
+    "birthday": {
+      "season": "Fall",
+      "day": 13
+    },
     "loves": [
       {
         "name": "Amethyst",
@@ -71,6 +75,10 @@
     "name": "Alex",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Alex_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/0/04/Alex.png",
+    "birthday": {
+      "season": "Summer",
+      "day": 13
+    },
     "loves": [
       {
         "name": "Complete Breakfast",
@@ -114,6 +122,10 @@
     "name": "Caroline",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/d/d4/Caroline_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/8/87/Caroline.png",
+    "birthday": {
+      "season": "Winter",
+      "day": 7
+    },
     "loves": [
       {
         "name": "Fish Taco",
@@ -167,6 +179,10 @@
     "name": "Clint",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/7/74/Clint_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/3/31/Clint.png",
+    "birthday": {
+      "season": "Winter",
+      "day": 26
+    },
     "loves": [
       {
         "name": "Amethyst",
@@ -255,6 +271,10 @@
     "name": "Demetrius",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/0/0b/Demetrius_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/f/f9/Demetrius.png",
+    "birthday": {
+      "season": "Summer",
+      "day": 19
+    },
     "loves": [
       {
         "name": "Bean Hotpot",
@@ -308,6 +328,10 @@
     "name": "Elliott",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/6/6f/Elliott_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/b/bd/Elliott.png",
+    "birthday": {
+      "season": "Fall",
+      "day": 5
+    },
     "loves": [
       {
         "name": "Crab Cakes",
@@ -371,6 +395,10 @@
     "name": "Emily",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/c/c3/Emily_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/28/Emily.png",
+    "birthday": {
+      "season": "Spring",
+      "day": 27
+    },
     "loves": [
       {
         "name": "Amethyst",
@@ -449,6 +477,10 @@
     "name": "Evelyn",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/5/54/Evelyn_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/8/8e/Evelyn.png",
+    "birthday": {
+      "season": "Winter",
+      "day": 20
+    },
     "loves": [
       {
         "name": "Beet",
@@ -512,6 +544,10 @@
     "name": "George",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/a/ad/George_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/78/George.png",
+    "birthday": {
+      "season": "Fall",
+      "day": 24
+    },
     "loves": [
       {
         "name": "Fried Mushroom",
@@ -555,6 +591,10 @@
     "name": "Gus",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/d/db/Gus_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/52/Gus.png",
+    "birthday": {
+      "season": "Summer",
+      "day": 8
+    },
     "loves": [
       {
         "name": "Diamond",
@@ -613,6 +653,10 @@
     "name": "Haley",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/f/f7/Haley_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Haley.png",
+    "birthday": {
+      "season": "Spring",
+      "day": 14
+    },
     "loves": [
       {
         "name": "Coconut",
@@ -661,6 +705,10 @@
     "name": "Harvey",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/7/7a/Harvey_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/9/95/Harvey.png",
+    "birthday": {
+      "season": "Winter",
+      "day": 14
+    },
     "loves": [
       {
         "name": "Coffee",
@@ -719,6 +767,10 @@
     "name": "Jas",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/6/68/Jas_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/55/Jas.png",
+    "birthday": {
+      "season": "Summer",
+      "day": 4
+    },
     "loves": [
       {
         "name": "Fairy Rose",
@@ -767,6 +819,10 @@
     "name": "Jodi",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/f/f7/Jodi_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/41/Jodi.png",
+    "birthday": {
+      "season": "Fall",
+      "day": 11
+    },
     "loves": [
       {
         "name": "Chocolate Cake",
@@ -840,6 +896,10 @@
     "name": "Kent",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/8/86/Kent_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/9/99/Kent.png",
+    "birthday": {
+      "season": "Spring",
+      "day": 4
+    },
     "loves": [
       {
         "name": "Fiddlehead Risotto",
@@ -883,6 +943,10 @@
     "name": "Krobus",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/1/10/Krobus_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/71/Krobus.png",
+    "birthday": {
+      "season": "Winter",
+      "day": 1
+    },
     "loves": [
       {
         "name": "Diamond",
@@ -946,6 +1010,10 @@
     "name": "Leah",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/6/6e/Leah_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/e/e6/Leah.png",
+    "birthday": {
+      "season": "Winter",
+      "day": 23
+    },
     "loves": [
       {
         "name": "Goat Cheese",
@@ -1014,6 +1082,10 @@
     "name": "Leo",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/3/3d/Leo_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/1/1d/Leo.png",
+    "birthday": {
+      "season": "Spring",
+      "day": 26
+    },
     "loves": [
       {
         "name": "Duck Feather",
@@ -1067,6 +1139,10 @@
     "name": "Lewis",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/b/b6/Lewis_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/2/2b/Lewis.png",
+    "birthday": {
+      "season": "Spring",
+      "day": 7
+    },
     "loves": [
       {
         "name": "Autumn's Bounty",
@@ -1125,6 +1201,10 @@
     "name": "Linus",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/d/db/Linus_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/3/31/Linus.png",
+    "birthday": {
+      "season": "Winter",
+      "day": 3
+    },
     "loves": [
       {
         "name": "Blueberry Tart",
@@ -1183,6 +1263,10 @@
     "name": "Marnie",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/d/d4/Marnie_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/5/52/Marnie.png",
+    "birthday": {
+      "season": "Fall",
+      "day": 18
+    },
     "loves": [
       {
         "name": "Diamond",
@@ -1236,6 +1320,10 @@
     "name": "Maru",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/2/23/Maru_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/f/f8/Maru.png",
+    "birthday": {
+      "season": "Summer",
+      "day": 10
+    },
     "loves": [
       {
         "name": "Battery Pack",
@@ -1324,6 +1412,10 @@
     "name": "Pam",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/b/b6/Pam_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/d/da/Pam.png",
+    "birthday": {
+      "season": "Spring",
+      "day": 18
+    },
     "loves": [
       {
         "name": "Beer",
@@ -1397,6 +1489,10 @@
     "name": "Penny",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/b/bc/Penny_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/a/ab/Penny.png",
+    "birthday": {
+      "season": "Fall",
+      "day": 2
+    },
     "loves": [
       {
         "name": "Diamond",
@@ -1470,6 +1566,10 @@
     "name": "Pierre",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/c/cf/Pierre_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/7/7e/Pierre.png",
+    "birthday": {
+      "season": "Spring",
+      "day": 26
+    },
     "loves": [
       {
         "name": "Fried Calamari",
@@ -1508,6 +1608,10 @@
     "name": "Robin",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/d/d1/Robin_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/1/1b/Robin.png",
+    "birthday": {
+      "season": "Fall",
+      "day": 21
+    },
     "loves": [
       {
         "name": "Goat Cheese",
@@ -1556,6 +1660,10 @@
     "name": "Sam",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/5/52/Sam_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/9/94/Sam.png",
+    "birthday": {
+      "season": "Summer",
+      "day": 17
+    },
     "loves": [
       {
         "name": "Cactus Fruit",
@@ -1609,6 +1717,10 @@
     "name": "Sandy",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/7/7d/Sandy_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/4/4e/Sandy.png",
+    "birthday": {
+      "season": "Fall",
+      "day": 15
+    },
     "loves": [
       {
         "name": "Crocus",
@@ -1662,6 +1774,10 @@
     "name": "Sebastian",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/6/6a/Sebastian_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/a/a8/Sebastian.png",
+    "birthday": {
+      "season": "Winter",
+      "day": 10
+    },
     "loves": [
       {
         "name": "Frozen Tear",
@@ -1720,6 +1836,10 @@
     "name": "Shane",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/b/b4/Shane_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/8/8b/Shane.png",
+    "birthday": {
+      "season": "Spring",
+      "day": 20
+    },
     "loves": [
       {
         "name": "Beer",
@@ -1773,6 +1893,10 @@
     "name": "Vincent",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/0/0b/Vincent_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/f/f1/Vincent.png",
+    "birthday": {
+      "season": "Spring",
+      "day": 10
+    },
     "loves": [
       {
         "name": "Cranberry Candy",
@@ -1831,6 +1955,10 @@
     "name": "Willy",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/7/73/Willy_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/8/82/Willy.png",
+    "birthday": {
+      "season": "Summer",
+      "day": 24
+    },
     "loves": [
       {
         "name": "Catfish",
@@ -1904,6 +2032,10 @@
     "name": "Wizard",
     "iconURL": "https://stardewvalleywiki.com/mediawiki/images/thumb/e/e9/Wizard_Icon.png/24px-Wizard_Icon.png",
     "imgURL": "https://stardewvalleywiki.com/mediawiki/images/c/c7/Wizard.png",
+    "birthday": {
+      "season": "Winter",
+      "day": 17
+    },
     "loves": [
       {
         "name": "Purple Mushroom",

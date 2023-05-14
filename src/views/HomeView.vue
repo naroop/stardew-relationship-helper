@@ -14,14 +14,19 @@
         </div>
         <div class="col-span-3 grid grid-rows-3 gap-4">
           <div class="row-span-2 overflow-y-scroll rounded bg-base-200 shadow-md shadow-black">
-            <TrackingList />
+            <TrackingList class="overflow-hidden" />
           </div>
           <div class="row-span-1 overflow-y-scroll bg-base-200 rounded shadow-md shadow-black">
-            <InventoryGrid />
+            <InventoryGrid class="overflow-hidden" />
           </div>
         </div>
-        <div class="col-span-1 overflow-y-scroll bg-base-200 rounded shadow-md shadow-black">
-          <DateTracker />
+        <div class="col-span-1 grid grid-rows-4 gap-4">
+          <div class="row-span-1 bg-base-200 rounded shadow-md shadow-black">
+            <DateTracker />
+          </div>
+          <div class="row-span-3 bg-base-200 rounded shadow-md shadow-black flex items-end justify-center">
+            <div class="italic text-xs tracking-wide mb-2">by @naroop and @jreinke428 2023</div>
+          </div>
         </div>
       </div>
     </div>

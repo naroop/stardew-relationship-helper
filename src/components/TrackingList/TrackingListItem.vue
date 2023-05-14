@@ -36,7 +36,12 @@
       </div>
     </div>
     <div class="col-span-1 flex flex-col justify-between items-end">
-      <font-awesome-icon class="p-2 text-warning" icon="fa-solid fa-cake-candles" beat-fade size="xl" />
+      <font-awesome-icon
+        :class="['p-2 text-warning', areDatesEqual(villager.birthday, store.state.date) ? 'block' : 'invisible']"
+        icon="fa-solid fa-cake-candles"
+        beat-fade
+        size="xl"
+      />
       <button class="btn btn-xs rounded-br rounded-tl rounded-none text-error" @click="stopTracking">
         <font-awesome-icon icon="fa-solid fa-xmark" size="lg" />
       </button>
@@ -44,7 +49,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import type { Villager } from "@/models";
+import type { StardewDate, Villager } from "@/models";
 import { defineProps, ref, defineExpose } from "vue";
 import type { Ref } from "vue";
 import store from "@/store";
@@ -60,6 +65,11 @@ const props = defineProps({
 
 function stopTracking() {
   store.commit("stopTracking", props.index);
+  console.log(props.villager.birthday, store.state.date);
+}
+
+function areDatesEqual(date1: StardewDate, date2: StardewDate) {
+  return date1.day === date2.day && date1.season === date2.season ? true : false;
 }
 
 defineExpose({ bin, villager: props.villager });

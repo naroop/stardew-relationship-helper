@@ -1,7 +1,7 @@
 import { createStore } from "vuex";
 import type { Store } from "vuex";
 import data from "./data.json";
-import { Item, Villager, StardewDate } from "@/models/index";
+import { Item, Villager, StardewDate, Season } from "@/models/index";
 
 interface State {
   untrackedVillagers: Villager[];
@@ -17,13 +17,13 @@ const store: Store<State> = createStore<State>({
     untrackedVillagers: [],
     trackedVillagers: [],
     inventory: [],
-    date: { season: "Spring", day: 1 },
+    date: {} as StardewDate,
     dragging: "",
     hovering: "",
   },
   getters: {},
   mutations: {
-    initVillagers(state: State) {
+    init(state: State) {
       data.forEach((villager) => villager.loves.sort((item1, item2) => (item1.name > item2.name ? 1 : -1)));
 
       const localTrackedVillagers = localStorage.getItem("trackedVillagers");
@@ -36,13 +36,16 @@ const store: Store<State> = createStore<State>({
 
       const localInventory = localStorage.getItem("inventory");
       state.inventory = localInventory ? JSON.parse(localInventory) : [];
+
+      const localDate = localStorage.getItem("date");
+      state.date = localDate ? JSON.parse(localDate) : { season: Season.SPRING, day: 1 };
     },
     reset(state: State) {
       data.forEach((villager) => villager.loves.sort((item1, item2) => (item1.name > item2.name ? 1 : -1)));
       state.untrackedVillagers = data as Villager[];
       state.trackedVillagers = [];
       state.inventory = [];
-      state.date = { season: "Spring", day: 1 };
+      state.date = { season: Season.SPRING, day: 1 };
     },
     addSaveFileData(state: State, saveData: { friendshipData: [{ name: string; friendshipPoints: number; status: string }]; date: StardewDate }) {
       state.trackedVillagers.forEach((trackedVillager) => {
@@ -51,14 +54,9 @@ const store: Store<State> = createStore<State>({
       state.date = saveData.date;
     },
     startTracking(state: State, index: number) {
-      // Remove and retrieve villager from untracked list
       const vill: Villager = removeVillager(index, state.untrackedVillagers);
       vill.friendshipPoints = 0;
-
-      // Add villager to tracked villagers
       state.trackedVillagers.push(vill);
-
-      // Add villager's like items to inventory
       addItemsToInventory(state.inventory, vill.loves);
     },
     stopTracking(state: State, index: number) {
@@ -105,6 +103,16 @@ store.watch(
   (state) => state.inventory,
   (value) => {
     localStorage.setItem("inventory", JSON.stringify(value));
+  },
+  {
+    deep: true,
+  }
+);
+
+store.watch(
+  (state) => state.date,
+  (value) => {
+    localStorage.setItem("date", JSON.stringify(value));
   },
   {
     deep: true,

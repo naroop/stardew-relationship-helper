@@ -70,7 +70,7 @@
 import store from "@/store";
 import { Ref, ref, defineExpose } from "vue";
 import { XMLParser } from "fast-xml-parser";
-import { StardewDate } from "@/models";
+import { Season, StardewDate } from "@/models";
 
 const modalOpen = ref(false);
 const activeTab = ref("apple");
@@ -151,13 +151,13 @@ function transformData(dataArray: [], season: number, day: number) {
 function convertSeasonToString(season: number) {
   switch (season) {
     case 1:
-      return "Spring";
+      return Season.SPRING;
     case 2:
-      return "Summer";
+      return Season.SUMMER;
     case 3:
-      return "Fall";
+      return Season.FALL;
     case 4:
-      return "Winter";
+      return Season.WINTER;
   }
 }
 
